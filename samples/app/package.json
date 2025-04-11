@@ -18,8 +18,8 @@
     "start": "react-native start --experimental-debugger"
   },
   "dependencies": {
-    "@bryce-mcmath/aries-bifold-core": "1.1.0",
-    "@bryce-mcmath/aries-oca": "1.1.0",
+    "@bryce-mcmath/aries-bifold-core": "1.1.1",
+    "@bryce-mcmath/aries-oca": "1.1.1",
     "@credo-ts/anoncreds": "0.5.13",
     "@credo-ts/askar": "0.5.13",
     "@credo-ts/core": "0.5.13",
