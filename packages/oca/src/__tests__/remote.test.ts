@@ -2,8 +2,8 @@ import axios from 'axios'
 import fs from 'fs'
 import { readFile, writeFile, exists, mkdir, unlink } from 'react-native-fs'
 
-import { ocaCacheDataFileName, defaultBundleIndexFileName } from '../src/constants'
-import { RemoteOCABundleResolver } from '../src/legacy/resolver/remote-oca'
+import { ocaCacheDataFileName, defaultBundleIndexFileName } from '../constants'
+import { RemoteOCABundleResolver } from '../legacy/resolver/remote-oca'
 
 const bundleFileName = 'bundle.json'
 const ocaPath = `${__dirname}/fixtures/${ocaCacheDataFileName}`
