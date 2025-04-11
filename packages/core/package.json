@@ -1,6 +1,6 @@
 {
   "name": "@bryce-mcmath/aries-bifold-core",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "main": "lib/commonjs/index.js",
   "module": "lib/module/index.js",
   "react-native": "src/index.ts",
@@ -34,8 +34,8 @@
   "devDependencies": {
     "@babel/core": "^7.20.0",
     "@babel/runtime": "^7.20.0",
-    "@bryce-mcmath/aries-bifold-verifier": "1.1.0",
-    "@bryce-mcmath/aries-oca": "1.1.0",
+    "@bryce-mcmath/aries-bifold-verifier": "1.1.1",
+    "@bryce-mcmath/aries-oca": "1.1.1",
     "@commitlint/cli": "^11.0.0",
     "@credo-ts/anoncreds": "0.5.13",
     "@credo-ts/askar": "0.5.13",

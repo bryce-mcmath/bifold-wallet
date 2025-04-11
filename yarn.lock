@@ -1792,14 +1792,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@bryce-mcmath/aries-bifold-core@1.1.0, @bryce-mcmath/aries-bifold-core@workspace:packages/core":
+"@bryce-mcmath/aries-bifold-core@1.1.1, @bryce-mcmath/aries-bifold-core@workspace:packages/core":
   version: 0.0.0-use.local
   resolution: "@bryce-mcmath/aries-bifold-core@workspace:packages/core"
   dependencies:
     "@babel/core": ^7.20.0
     "@babel/runtime": ^7.20.0
-    "@bryce-mcmath/aries-bifold-verifier": 1.1.0
-    "@bryce-mcmath/aries-oca": 1.1.0
+    "@bryce-mcmath/aries-bifold-verifier": 1.1.1
+    "@bryce-mcmath/aries-oca": 1.1.1
     "@commitlint/cli": ^11.0.0
     "@credo-ts/anoncreds": 0.5.13
     "@credo-ts/askar": 0.5.13
@@ -1986,7 +1986,7 @@ __metadata:
   resolution: "@bryce-mcmath/aries-bifold-remote-logs@workspace:packages/remote-logs"
   dependencies:
     "@babel/runtime": ^7.20.0
-    "@bryce-mcmath/aries-bifold-core": 1.1.0
+    "@bryce-mcmath/aries-bifold-core": 1.1.1
     "@credo-ts/core": 0.5.13
     "@typescript-eslint/parser": ^6.6.0
     axios: ^1.4.0
@@ -2008,7 +2008,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@bryce-mcmath/aries-bifold-verifier@1.1.0, @bryce-mcmath/aries-bifold-verifier@workspace:packages/verifier":
+"@bryce-mcmath/aries-bifold-verifier@1.1.1, @bryce-mcmath/aries-bifold-verifier@workspace:packages/verifier":
   version: 0.0.0-use.local
   resolution: "@bryce-mcmath/aries-bifold-verifier@workspace:packages/verifier"
   dependencies:
@@ -2036,7 +2036,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@bryce-mcmath/aries-oca@1.1.0, @bryce-mcmath/aries-oca@workspace:packages/oca":
+"@bryce-mcmath/aries-oca@1.1.1, @bryce-mcmath/aries-oca@workspace:packages/oca":
   version: 0.0.0-use.local
   resolution: "@bryce-mcmath/aries-oca@workspace:packages/oca"
   dependencies:
@@ -8018,8 +8018,8 @@ __metadata:
     "@babel/core": ^7.20.0
     "@babel/preset-env": ^7.20.0
     "@babel/runtime": ^7.20.0
-    "@bryce-mcmath/aries-bifold-core": 1.1.0
-    "@bryce-mcmath/aries-oca": 1.1.0
+    "@bryce-mcmath/aries-bifold-core": 1.1.1
+    "@bryce-mcmath/aries-oca": 1.1.1
     "@credo-ts/anoncreds": 0.5.13
     "@credo-ts/askar": 0.5.13
     "@credo-ts/core": 0.5.13
