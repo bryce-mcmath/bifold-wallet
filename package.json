@@ -22,7 +22,7 @@
     "lint": "eslint --color .",
     "pre-commit-lint": "yarn workspaces foreach --topological-dev run pre-commit-lint",
     "typecheck": "yarn workspaces foreach --topological-dev -p run typecheck",
-    "release": "yarn build && yarn changeset publish",
+    "release": "yarn build && yarn changeset publish --no-git-tag",
     "changeset-version": "changeset version && yarn install --no-immutable"
   },
   "devDependencies": {
