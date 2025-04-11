@@ -168,7 +168,7 @@ jobs:
   release:
     name: Release
     runs-on: ubuntu-22.04
-    needs: [build-ios, build-android] # won't publish if either build fails
+    # needs: [build-ios, build-android] # won't publish if either build fails
     if: github.ref_name == 'fake-main' && github.event_name == 'push' # so we don't publish on PRs
     steps:
       - name: Checkout bifold-wallet

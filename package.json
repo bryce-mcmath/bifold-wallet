@@ -23,7 +23,7 @@
     "pre-commit-lint": "yarn workspaces foreach --topological-dev run pre-commit-lint",
     "typecheck": "yarn workspaces foreach --topological-dev -p run typecheck",
     "release": "yarn build && yarn changeset publish",
-    "changeset-version": "changeset version && yarn install"
+    "changeset-version": "changeset version && yarn"
   },
   "devDependencies": {
     "@changesets/cli": "^2.28.1",
