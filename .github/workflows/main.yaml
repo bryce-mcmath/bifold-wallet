@@ -190,9 +190,9 @@ jobs:
         run: |
           yarn install --immutable
       
-      - name: Build Workspace
+      - name: Disable husky hooks
         run: |
-          yarn build
+          yarn husky uninstall
       
       - name: Publish to npm and GitHub
         id: changesets
@@ -202,6 +202,7 @@ jobs:
           commit: 'chore(release): new version'
           publish: yarn release
           version: yarn changeset-version
+          setupGitUser: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_PUBLISH }}
