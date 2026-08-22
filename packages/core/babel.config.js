@@ -14,8 +14,8 @@ if (process.env['ENV'] === 'prod') {
   plugins.push('transform-remove-console')
 }
 
-// react-native-reanimated plugin must be listed last
-plugins.push('react-native-reanimated/plugin')
+// react-native-worklets plugin must be listed last (moved out of reanimated in v4)
+plugins.push('react-native-worklets/plugin')
 
 module.exports = {
   presets,

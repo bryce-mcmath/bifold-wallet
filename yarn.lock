@@ -1863,7 +1863,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:^7.14.5, @babel/runtime@npm:^7.17.2, @babel/runtime@npm:^7.20.0, @babel/runtime@npm:^7.25.0, @babel/runtime@npm:^7.28.4, @babel/runtime@npm:^7.5.5, @babel/runtime@npm:~7.28.6":
+"@babel/runtime@npm:^7.20.0, @babel/runtime@npm:^7.25.0, @babel/runtime@npm:^7.28.4, @babel/runtime@npm:^7.5.5, @babel/runtime@npm:~7.28.6":
   version: 7.28.6
   resolution: "@babel/runtime@npm:7.28.6"
   checksum: 10c0/358cf2429992ac1c466df1a21c1601d595c46930a13c1d4662fde908d44ee78ec3c183aaff513ecb01ef8c55c3624afe0309eeeb34715672dbfadb7feedb2c0d
@@ -2004,16 +2004,16 @@ __metadata:
     "@bifold/oca": "npm:3.0.22"
     "@bifold/react-hooks": "npm:3.0.22"
     "@bifold/verifier": "npm:3.0.22"
-    "@credo-ts/anoncreds": "npm:0.6.3"
-    "@credo-ts/askar": "npm:0.6.3"
-    "@credo-ts/core": "npm:0.6.3"
-    "@credo-ts/didcomm": "npm:0.6.3"
-    "@credo-ts/indy-vdr": "npm:0.6.3"
-    "@credo-ts/openid4vc": "npm:0.6.3"
+    "@credo-ts/anoncreds": "npm:0.7.0"
+    "@credo-ts/askar": "npm:0.7.0"
+    "@credo-ts/core": "npm:0.7.0"
+    "@credo-ts/didcomm": "npm:0.7.0"
+    "@credo-ts/indy-vdr": "npm:0.7.0"
+    "@credo-ts/openid4vc": "npm:0.7.0"
     "@credo-ts/push-notifications": "npm:0.7.1"
-    "@credo-ts/question-answer": "npm:0.6.3"
-    "@credo-ts/react-native": "npm:0.6.3"
-    "@credo-ts/webvh": "npm:0.6.3"
+    "@credo-ts/question-answer": "npm:0.7.0"
+    "@credo-ts/react-native": "npm:0.7.0"
+    "@credo-ts/webvh": "npm:0.7.0"
     "@expo/app-integrity": "npm:^55.0.9"
     "@formatjs/intl-datetimeformat": "npm:~6.18.2"
     "@formatjs/intl-displaynames": "npm:~6.8.13"
@@ -2023,11 +2023,11 @@ __metadata:
     "@formatjs/intl-numberformat": "npm:~8.15.6"
     "@formatjs/intl-pluralrules": "npm:~5.4.6"
     "@formatjs/intl-relativetimeformat": "npm:~11.4.13"
-    "@hyperledger/anoncreds-react-native": "npm:0.3.4"
-    "@hyperledger/indy-vdr-react-native": "npm:0.2.4"
-    "@hyperledger/indy-vdr-shared": "npm:0.2.3"
-    "@openwallet-foundation/askar-react-native": "npm:0.6.0"
-    "@openwallet-foundation/askar-shared": "npm:0.6.0"
+    "@hyperledger/anoncreds-react-native": "npm:0.4.1-alpha-20260609124337"
+    "@hyperledger/indy-vdr-react-native": "npm:0.3.1-dev.1"
+    "@hyperledger/indy-vdr-shared": "npm:0.3.1-dev.1"
+    "@openwallet-foundation/askar-react-native": "npm:0.6.1-alpha-20260720140434"
+    "@openwallet-foundation/askar-shared": "npm:0.6.1-alpha-20260720140434"
     "@react-native-async-storage/async-storage": "npm:~2.2.0"
     "@react-native-clipboard/clipboard": "npm:~1.16.3"
     "@react-native-community/netinfo": "npm:~11.4.1"
@@ -2035,7 +2035,7 @@ __metadata:
     "@react-native/eslint-config": "npm:~0.81.5"
     "@react-native/eslint-plugin": "npm:~0.81.5"
     "@react-navigation/bottom-tabs": "npm:~6.0.9"
-    "@react-navigation/core": "npm:~6.1.1"
+    "@react-navigation/core": "npm:~6.4.17"
     "@react-navigation/devtools": "npm:~6.0.27"
     "@react-navigation/native": "npm:~6.0.16"
     "@react-navigation/stack": "npm:~6.3.29"
@@ -2049,7 +2049,7 @@ __metadata:
     "@types/react-native-vector-icons": "npm:~6.4.18"
     "@typescript-eslint/eslint-plugin": "npm:~7.18.0"
     "@typescript-eslint/parser": "npm:~7.18.0"
-    axios: "npm:~1.13.2"
+    axios: "npm:~1.15.0"
     babel-jest: "npm:~29.7.0"
     babel-plugin-module-resolver: "npm:~5.0.2"
     base-64: "npm:~1.0.0"
@@ -2090,19 +2090,20 @@ __metadata:
     react-native-orientation-locker: "npm:~1.6.0"
     react-native-permissions: "npm:~5.4.1"
     react-native-qrcode-svg: "npm:~6.2.0"
-    react-native-reanimated: "npm:~3.19.5"
+    react-native-reanimated: "npm:4.1.1"
     react-native-safe-area-context: "npm:~5.6.2"
     react-native-screenguard: "npm:~1.1.0"
-    react-native-screens: "npm:~4.16.0"
+    react-native-screens: "npm:~4.24.0"
     react-native-splash-screen: "npm:~3.3.0"
     react-native-svg: "npm:~15.12.1"
     react-native-svg-transformer: "npm:~1.5.0"
     react-native-tcp-socket: "npm:~6.0.6"
     react-native-toast-message: "npm:~2.1.10"
     react-native-url-polyfill: "npm:3.0.0"
-    react-native-uuid: "npm:~2.0.3"
+    react-native-uuid: "npm:~2.0.4"
     react-native-vector-icons: "npm:~10.3.0"
     react-native-vision-camera: "npm:4.7.3"
+    react-native-worklets: "npm:0.5.1"
     react-test-renderer: "npm:~19.1.4"
     rimraf: "npm:~5.0.10"
     tsyringe: "npm:~4.8.0"
@@ -2112,16 +2113,16 @@ __metadata:
   peerDependencies:
     "@animo-id/expo-secure-environment": 0.1.5
     "@bifold/react-hooks": 3.0.22
-    "@credo-ts/anoncreds": 0.6.3
-    "@credo-ts/askar": 0.6.3
-    "@credo-ts/core": 0.6.3
-    "@credo-ts/didcomm": 0.6.3
-    "@credo-ts/indy-vdr": 0.6.3
-    "@credo-ts/openid4vc": 0.6.3
+    "@credo-ts/anoncreds": 0.7.0
+    "@credo-ts/askar": 0.7.0
+    "@credo-ts/core": 0.7.0
+    "@credo-ts/didcomm": 0.7.0
+    "@credo-ts/indy-vdr": 0.7.0
+    "@credo-ts/openid4vc": 0.7.0
     "@credo-ts/push-notifications": 0.7.1
-    "@credo-ts/question-answer": 0.6.3
-    "@credo-ts/react-native": 0.6.3
-    "@credo-ts/webvh": 0.6.3
+    "@credo-ts/question-answer": 0.7.0
+    "@credo-ts/react-native": 0.7.0
+    "@credo-ts/webvh": 0.7.0
     "@formatjs/intl-datetimeformat": ~6.18.2
     "@formatjs/intl-displaynames": ~6.8.13
     "@formatjs/intl-getcanonicallocales": ~2.5.6
@@ -2130,28 +2131,28 @@ __metadata:
     "@formatjs/intl-numberformat": ~8.15.6
     "@formatjs/intl-pluralrules": ~5.4.6
     "@formatjs/intl-relativetimeformat": ~11.4.13
-    "@hyperledger/anoncreds-react-native": 0.3.4
-    "@hyperledger/indy-vdr-react-native": 0.2.4
-    "@hyperledger/indy-vdr-shared": 0.2.3
-    "@openwallet-foundation/askar-react-native": 0.6.0
+    "@hyperledger/anoncreds-react-native": 0.4.1-alpha-20260609124337
+    "@hyperledger/indy-vdr-react-native": 0.3.1-dev.1
+    "@hyperledger/indy-vdr-shared": 0.3.1-dev.1
+    "@openwallet-foundation/askar-react-native": 0.6.1-alpha-20260720140434
     "@react-native-async-storage/async-storage": ~2.2.0
     "@react-native-clipboard/clipboard": ~1.16.3
     "@react-native-community/netinfo": ~11.4.1
     "@react-navigation/bottom-tabs": ~6.0.9
-    "@react-navigation/core": ~6.1.1
+    "@react-navigation/core": ~6.4.17
     "@react-navigation/devtools": ~6.0.27
     "@react-navigation/native": ~6.0.16
     "@react-navigation/stack": ~6.3.29
-    axios: ~1.13.2
+    axios: ~1.15.0
     base-64: ~1.0.0
     class-transformer: 0.5.1
     expo-crypto: ~15.0.8
-    i18next: ~21.6.16
+    i18next: ~25.8.0
     lodash.startcase: ~4.4.0
     moment: ~2.29.4
     query-string: ~7.1.3
     react: ~19.1.4
-    react-i18next: ~11.17.1
+    react-i18next: ~16.5.4
     react-native: "*"
     react-native-animated-pagination-dots: ~0.1.73
     react-native-bouncy-checkbox: ~3.0.7
@@ -2170,13 +2171,13 @@ __metadata:
     react-native-qrcode-svg: ~6.2.0
     react-native-safe-area-context: ~5.6.2
     react-native-screenguard: "*"
-    react-native-screens: ~4.16.0
+    react-native-screens: ~4.24.0
     react-native-splash-screen: ~3.3.0
     react-native-svg: ~15.12.1
     react-native-tcp-socket: ~6.0.6
     react-native-toast-message: ~2.1.10
     react-native-url-polyfill: 3.0.0
-    react-native-uuid: ~2.0.3
+    react-native-uuid: ~2.0.4
     react-native-vector-icons: ~10.3.0
     react-native-vision-camera: "*"
     tsyringe: ~4.8.0
@@ -2190,14 +2191,14 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@bifold/oca@workspace:packages/oca"
   dependencies:
-    "@credo-ts/anoncreds": "npm:0.6.3"
-    "@credo-ts/core": "npm:0.6.3"
-    "@credo-ts/didcomm": "npm:0.6.3"
+    "@credo-ts/anoncreds": "npm:0.7.0"
+    "@credo-ts/core": "npm:0.7.0"
+    "@credo-ts/didcomm": "npm:0.7.0"
     "@testing-library/jest-native": "npm:~5.4.3"
     "@types/jest": "npm:~29.5.14"
     "@types/lodash.startcase": "npm:~4.4.9"
     "@typescript-eslint/parser": "npm:~7.18.0"
-    axios: "npm:~1.13.2"
+    axios: "npm:~1.15.0"
     eslint: "npm:~8.57.1"
     eslint-import-resolver-typescript: "npm:~3.6.3"
     jest: "npm:~29.6.4"
@@ -2213,9 +2214,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@bifold/react-hooks@workspace:packages/react-hooks"
   dependencies:
-    "@credo-ts/core": "npm:0.6.3"
-    "@credo-ts/didcomm": "npm:0.6.3"
-    "@credo-ts/question-answer": "npm:0.6.3"
+    "@credo-ts/core": "npm:0.7.0"
+    "@credo-ts/didcomm": "npm:0.7.0"
+    "@credo-ts/question-answer": "npm:0.7.0"
     "@jest/types": "npm:^29.6.3"
     "@types/jest": "npm:^29.5.12"
     "@types/react": "npm:^18.2.14"
@@ -2225,10 +2226,10 @@ __metadata:
     ts-jest: "npm:^29.2.5"
     typescript: "npm:~5.3.3"
   peerDependencies:
-    "@credo-ts/core": 0.6.3
-    "@credo-ts/didcomm": 0.6.3
-    "@credo-ts/question-answer": 0.6.3
-    react: ">=17.0.0 <19.0.0"
+    "@credo-ts/core": 0.7.0
+    "@credo-ts/didcomm": 0.7.0
+    "@credo-ts/question-answer": 0.7.0
+    react: ~19.1.4
   bin:
     bifold: bin/bifold
   languageName: unknown
@@ -2277,10 +2278,10 @@ __metadata:
     "@babel/preset-typescript": "npm:~7.28.5"
     "@babel/runtime": "npm:~7.28.6"
     "@bifold/core": "npm:3.0.22"
-    "@credo-ts/core": "npm:0.6.3"
+    "@credo-ts/core": "npm:0.7.0"
     "@types/jest": "npm:~29.5.12"
     "@typescript-eslint/parser": "npm:~7.18.0"
-    axios: "npm:~1.13.2"
+    axios: "npm:~1.15.0"
     babel-jest: "npm:~29.7.0"
     buffer: "npm:~6.0.3"
     eslint: "npm:~8.57.1"
@@ -2293,8 +2294,8 @@ __metadata:
     rimraf: "npm:~5.0.10"
     typescript: "npm:~5.9.2"
   peerDependencies:
-    "@credo-ts/core": 0.6.3
-    axios: ~1.13.2
+    "@credo-ts/core": 0.7.0
+    axios: ~1.15.0
     buffer: ~6.0.3
     react: ~19.1.4
     react-native: 0.81.5
@@ -2308,10 +2309,10 @@ __metadata:
   dependencies:
     "@babel/core": "npm:~7.28.6"
     "@bifold/react-hooks": "npm:3.0.22"
-    "@credo-ts/anoncreds": "npm:0.6.3"
-    "@credo-ts/core": "npm:0.6.3"
-    "@credo-ts/didcomm": "npm:0.6.3"
-    "@hyperledger/anoncreds-shared": "npm:0.3.4"
+    "@credo-ts/anoncreds": "npm:0.7.0"
+    "@credo-ts/core": "npm:0.7.0"
+    "@credo-ts/didcomm": "npm:0.7.0"
+    "@hyperledger/anoncreds-shared": "npm:0.4.1-alpha-20260609124337"
     "@react-native/babel-preset": "npm:~0.81.5"
     "@types/jest": "npm:~29.5.14"
     "@types/react": "npm:~19.1.9"
@@ -2324,12 +2325,54 @@ __metadata:
     typescript: "npm:~5.9.2"
   peerDependencies:
     "@bifold/react-hooks": 3.0.22
-    "@credo-ts/anoncreds": 0.6.3
-    "@credo-ts/core": 0.6.3
-    "@hyperledger/anoncreds-shared": 0.3.4
+    "@credo-ts/anoncreds": 0.7.0
+    "@credo-ts/core": 0.7.0
+    "@hyperledger/anoncreds-shared": 0.4.1-alpha-20260609124337
     react: ~19.1.4
   languageName: unknown
   linkType: soft
+
+"@cbor-extract/cbor-extract-darwin-arm64@npm:2.2.2":
+  version: 2.2.2
+  resolution: "@cbor-extract/cbor-extract-darwin-arm64@npm:2.2.2"
+  conditions: os=darwin & cpu=arm64
+  languageName: node
+  linkType: hard
+
+"@cbor-extract/cbor-extract-darwin-x64@npm:2.2.2":
+  version: 2.2.2
+  resolution: "@cbor-extract/cbor-extract-darwin-x64@npm:2.2.2"
+  conditions: os=darwin & cpu=x64
+  languageName: node
+  linkType: hard
+
+"@cbor-extract/cbor-extract-linux-arm64@npm:2.2.2":
+  version: 2.2.2
+  resolution: "@cbor-extract/cbor-extract-linux-arm64@npm:2.2.2"
+  conditions: os=linux & cpu=arm64
+  languageName: node
+  linkType: hard
+
+"@cbor-extract/cbor-extract-linux-arm@npm:2.2.2":
+  version: 2.2.2
+  resolution: "@cbor-extract/cbor-extract-linux-arm@npm:2.2.2"
+  conditions: os=linux & cpu=arm
+  languageName: node
+  linkType: hard
+
+"@cbor-extract/cbor-extract-linux-x64@npm:2.2.2":
+  version: 2.2.2
+  resolution: "@cbor-extract/cbor-extract-linux-x64@npm:2.2.2"
+  conditions: os=linux & cpu=x64
+  languageName: node
+  linkType: hard
+
+"@cbor-extract/cbor-extract-win32-x64@npm:2.2.2":
+  version: 2.2.2
+  resolution: "@cbor-extract/cbor-extract-win32-x64@npm:2.2.2"
+  conditions: os=win32 & cpu=x64
+  languageName: node
+  linkType: hard
 
 "@changesets/apply-release-plan@npm:^7.0.14":
   version: 7.0.14
@@ -2772,43 +2815,42 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@credo-ts/anoncreds@npm:0.6.3":
-  version: 0.6.3
-  resolution: "@credo-ts/anoncreds@npm:0.6.3"
+"@credo-ts/anoncreds@npm:0.7.0":
+  version: 0.7.0
+  resolution: "@credo-ts/anoncreds@npm:0.7.0"
   dependencies:
     "@astronautlabs/jsonpath": "npm:^1.1.2"
-    "@credo-ts/core": "npm:0.6.3"
-    "@credo-ts/didcomm": "npm:0.6.3"
+    "@credo-ts/core": "npm:0.7.0"
+    "@credo-ts/didcomm": "npm:0.7.0"
     "@sphereon/pex-models": "npm:^2.3.2"
     class-transformer: "npm:0.5.1"
     class-validator: "npm:^0.14.3"
     reflect-metadata: "npm:0.2.2"
   peerDependencies:
-    "@hyperledger/anoncreds-shared": ^0.3.4
-  checksum: 10c0/a9897f2a8bc71e6d36b6527d985f12d6fbee5a0e33de9a96323b13c7b9821e2b8d418ee04ec03a84b7d7a3ed171f9c58cb9441481b040f5e6a567d07a4da32e5
+    "@hyperledger/anoncreds-shared": ^0.4.0
+  checksum: 10c0/6dbc5bdbbba2a1cc32de7909fbab7f1a605523eed9417cb05bede0b211821cafe6048c81f4895079336ab597e1a7b7601ed885c28fa8aebfee9ff6e6304de2ed
   languageName: node
   linkType: hard
 
-"@credo-ts/askar@npm:0.6.3":
-  version: 0.6.3
-  resolution: "@credo-ts/askar@npm:0.6.3"
+"@credo-ts/askar@npm:0.7.0":
+  version: 0.7.0
+  resolution: "@credo-ts/askar@npm:0.7.0"
   dependencies:
-    "@credo-ts/core": "npm:0.6.3"
+    "@credo-ts/core": "npm:0.7.0"
     class-transformer: "npm:0.5.1"
     class-validator: "npm:^0.14.3"
     rxjs: "npm:^7.8.2"
     tsyringe: "npm:^4.10.0"
   peerDependencies:
-    "@openwallet-foundation/askar-shared": ^0.4.3
-  checksum: 10c0/42ceff70826656a511b65146e989b127b31aa0db2203e9c11224717e1d3fcd361ce2d76a1238d458aeab14b323944382a042792ab7dd0194ecc3fec89d389f76
+    "@openwallet-foundation/askar-shared": ^0.4.3 || ^0.5.0 || ^0.6.0
+  checksum: 10c0/2d4ce540e5b03f8c507c4ec3b3ce3400aa6429c69ee44977a53636fa11fef25ab3dcc8eb272e4901026acb265ea9f67272d865311f2772849209d80f96fc6491
   languageName: node
   linkType: hard
 
-"@credo-ts/core@npm:0.6.3":
-  version: 0.6.3
-  resolution: "@credo-ts/core@npm:0.6.3"
+"@credo-ts/core@npm:0.7.0":
+  version: 0.7.0
+  resolution: "@credo-ts/core@npm:0.7.0"
   dependencies:
-    "@animo-id/mdoc": "npm:^0.5.2"
     "@animo-id/pex": "npm:^6.1.1"
     "@astronautlabs/jsonpath": "npm:^1.1.2"
     "@digitalcredentials/jsonld": "npm:^9.0.0"
@@ -2817,11 +2859,13 @@ __metadata:
     "@multiformats/base-x": "npm:^4.0.1"
     "@noble/curves": "npm:^2.0.1"
     "@noble/hashes": "npm:^2.0.1"
+    "@owf/mdoc": "npm:^0.6.0"
     "@peculiar/asn1-ecc": "npm:^2.6.0"
     "@peculiar/asn1-rsa": "npm:^2.6.0"
     "@peculiar/asn1-schema": "npm:^2.6.0"
-    "@peculiar/asn1-x509": "npm:^2.6.0"
+    "@peculiar/asn1-x509": "npm:^2.6.1"
     "@peculiar/x509": "npm:^1.14.3"
+    "@scure/base": "npm:^2.0.0"
     "@sd-jwt/core": "npm:^0.19.0"
     "@sd-jwt/decode": "npm:^0.19.0"
     "@sd-jwt/jwt-status-list": "npm:^0.19.0"
@@ -2833,7 +2877,7 @@ __metadata:
     "@sphereon/ssi-types": "npm:0.33.0"
     "@stablelib/ed25519": "npm:^2.0.2"
     "@types/ws": "npm:^8.18.1"
-    buffer: "npm:^6.0.3"
+    "@verifiables/request-converter": "npm:^0.2.0"
     class-transformer: "npm:0.5.1"
     class-validator: "npm:^0.14.3"
     dcql: "npm:^3.0.0"
@@ -2850,41 +2894,41 @@ __metadata:
     web-did-resolver: "npm:^2.0.32"
     webcrypto-core: "npm:^1.8.1"
     zod: "npm:^4.3.6"
-  checksum: 10c0/736ac6955e6b989184eea37c3fc82202408bcc885026e4aff76481f7f89a3d78c25b85fc31e62d1cc7aadb7df8a72084bf9bd158c304c8205a9e9121a5636f87
+  checksum: 10c0/37c664f5a2028235aa1599f61f0b06483788be148084dfcf455dc08492d1c13503338bd676c31f1d6b14295e2c387a078fd7dd78e723386f7128e3e564ec2ce9
   languageName: node
   linkType: hard
 
-"@credo-ts/didcomm@npm:0.6.3":
-  version: 0.6.3
-  resolution: "@credo-ts/didcomm@npm:0.6.3"
+"@credo-ts/didcomm@npm:0.7.0":
+  version: 0.7.0
+  resolution: "@credo-ts/didcomm@npm:0.7.0"
   dependencies:
-    "@credo-ts/core": "npm:0.6.3"
+    "@credo-ts/core": "npm:0.7.0"
     class-transformer: "npm:0.5.1"
     class-validator: "npm:^0.14.3"
     luxon: "npm:^3.7.2"
     query-string: "npm:^9.3.1"
     rxjs: "npm:^7.8.2"
-  checksum: 10c0/f7e10dddafca428c9aa8a910cb681bab9842c6934f61083f3bc9d6133e2e2f754063596326cf49b3f48658972757d7af6ab3deb3082531543bb62b80c33f36b3
+  checksum: 10c0/079b5b440bceb9c8a62abf9de3f10f90e29f6288a35dd43fc9c949531cde875afc95fa35cac5198dd64d4c4ce0b9abf9c484f205a1257d224d8f37c64fd23382
   languageName: node
   linkType: hard
 
-"@credo-ts/indy-vdr@npm:0.6.3":
-  version: 0.6.3
-  resolution: "@credo-ts/indy-vdr@npm:0.6.3"
+"@credo-ts/indy-vdr@npm:0.7.0":
+  version: 0.7.0
+  resolution: "@credo-ts/indy-vdr@npm:0.7.0"
   dependencies:
-    "@credo-ts/anoncreds": "npm:0.6.3"
-    "@credo-ts/core": "npm:0.6.3"
+    "@credo-ts/anoncreds": "npm:0.7.0"
+    "@credo-ts/core": "npm:0.7.0"
   peerDependencies:
-    "@hyperledger/indy-vdr-shared": ^0.2.3
-  checksum: 10c0/71d200356bf763a5fd49a5da612341635073c56ec540b2042eb1a563ad01fc27269fbd26545ecec265559a9c7de669076502bdf883bc007a066b7f30469c2917
+    "@hyperledger/indy-vdr-shared": ^0.3.0
+  checksum: 10c0/9f6a4f8f8aafa65bec3d76dfa7b9c9e0332698a2f9be4ccb603426a68236bc78ddd4812751d01351a821d667a8b11e37d3000b31716a75ce9ff7be7a58e012d3
   languageName: node
   linkType: hard
 
-"@credo-ts/openid4vc@npm:0.6.3":
-  version: 0.6.3
-  resolution: "@credo-ts/openid4vc@npm:0.6.3"
+"@credo-ts/openid4vc@npm:0.7.0":
+  version: 0.7.0
+  resolution: "@credo-ts/openid4vc@npm:0.7.0"
   dependencies:
-    "@credo-ts/core": "npm:0.6.3"
+    "@credo-ts/core": "npm:0.7.0"
     "@openid4vc/oauth2": "npm:^0.4.6"
     "@openid4vc/openid4vci": "npm:^0.4.6"
     "@openid4vc/openid4vp": "npm:^0.4.6"
@@ -2894,7 +2938,7 @@ __metadata:
     express: "npm:^5.2.1"
     rxjs: "npm:^7.8.2"
     zod: "npm:^4.3.6"
-  checksum: 10c0/64ba14d9acacf35fd4b4dc3bbb58c30624309f8faedfda98fd9baefcbb95450932ac8be9d5891f8da0c19606cfdbccfcb627ad535c034704757172eccd970f9e
+  checksum: 10c0/be05c05d223bd178b0da9c9657825bbcb45aa0ca29d4c9cf1d76764b490ccf6d6bec6af1c9ea19866fe6366d2f1c048eeb728eb0ba75a6137899ed7265b47c25
   languageName: node
   linkType: hard
 
@@ -2911,69 +2955,79 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@credo-ts/question-answer@npm:0.6.3":
-  version: 0.6.3
-  resolution: "@credo-ts/question-answer@npm:0.6.3"
+"@credo-ts/question-answer@npm:0.7.0":
+  version: 0.7.0
+  resolution: "@credo-ts/question-answer@npm:0.7.0"
   dependencies:
-    "@credo-ts/core": "npm:0.6.3"
-    "@credo-ts/didcomm": "npm:0.6.3"
+    "@credo-ts/core": "npm:0.7.0"
+    "@credo-ts/didcomm": "npm:0.7.0"
     class-transformer: "npm:0.5.1"
     class-validator: "npm:^0.14.3"
     rxjs: "npm:^7.8.2"
-  checksum: 10c0/0382fb776059d0a1559af437c119c3428e57045321dda6050f6a30161e790a7d28a932af5e292065393c38dacac087ed0ab53bef7cc23c60ad4d53d273268ccd
+  checksum: 10c0/a8424babb8952d15e5f9563c834846a4855c975cf7aa9d1799144082103a1110eb54de191cb3075526dd3564462554c5626783f1365acafcfd63a35b15d463b2
   languageName: node
   linkType: hard
 
-"@credo-ts/react-native@npm:0.6.3":
-  version: 0.6.3
-  resolution: "@credo-ts/react-native@npm:0.6.3"
+"@credo-ts/react-native@npm:0.7.0":
+  version: 0.7.0
+  resolution: "@credo-ts/react-native@npm:0.7.0"
   dependencies:
-    "@credo-ts/core": "npm:0.6.3"
+    "@credo-ts/core": "npm:0.7.0"
     events: "npm:^3.3.0"
   peerDependencies:
     "@animo-id/expo-secure-environment": ^0.1.1
+    "@dr.pogodin/react-native-fs": ">= 2.37.0"
     expo-crypto: ^15.0.7
     react-native: ">=0.71.4"
-    react-native-fs: ^2.20.0
+    react-native-fs: ">= 2"
     react-native-get-random-values: ">=1.11.0 <3.0.0"
   peerDependenciesMeta:
     "@animo-id/expo-secure-environment":
       optional: true
-  checksum: 10c0/73297d185f6dc6bcbade2494a0ad1a2dd4530556a418e635b18519303a2e984ea5677b4f734b00f7b03bd96acc253d35fbda5de80c9ec8fe3d0e39bf6e1e9acd
+    "@dr.pogodin/react-native-fs":
+      optional: true
+    react-native-fs:
+      optional: true
+  checksum: 10c0/7f3d00d05b230031b4fc915ef967144e7a28b34b8611278010c1836c2e1b1cccc3f54fbf32e3c8836e2e852127b7eb5897a88fa3c927bb1a8a84d8bd17154ff9
   languageName: node
   linkType: hard
 
-"@credo-ts/react-native@patch:@credo-ts/react-native@npm%3A0.6.3#~/.yarn/patches/@credo-ts-react-native-npm-0.6.3-secure-environment-biometrics.patch":
-  version: 0.6.3
-  resolution: "@credo-ts/react-native@patch:@credo-ts/react-native@npm%3A0.6.3#~/.yarn/patches/@credo-ts-react-native-npm-0.6.3-secure-environment-biometrics.patch::version=0.6.3&hash=324d01"
+"@credo-ts/react-native@patch:@credo-ts/react-native@npm%3A0.7.0#~/.yarn/patches/@credo-ts-react-native-npm-0.7.0-secure-environment-biometrics.patch":
+  version: 0.7.0
+  resolution: "@credo-ts/react-native@patch:@credo-ts/react-native@npm%3A0.7.0#~/.yarn/patches/@credo-ts-react-native-npm-0.7.0-secure-environment-biometrics.patch::version=0.7.0&hash=4fc4d3"
   dependencies:
-    "@credo-ts/core": "npm:0.6.3"
+    "@credo-ts/core": "npm:0.7.0"
     events: "npm:^3.3.0"
   peerDependencies:
     "@animo-id/expo-secure-environment": ^0.1.1
+    "@dr.pogodin/react-native-fs": ">= 2.37.0"
     expo-crypto: ^15.0.7
     react-native: ">=0.71.4"
-    react-native-fs: ^2.20.0
+    react-native-fs: ">= 2"
     react-native-get-random-values: ">=1.11.0 <3.0.0"
   peerDependenciesMeta:
     "@animo-id/expo-secure-environment":
       optional: true
-  checksum: 10c0/28099216e58067fb5c57f893c1ac82b0edd9ed243b119a0a05521ecbd92b646a8c38be4eff2a901738956a5de4f560465a4caf51e73fd92624d0e4f045974465
+    "@dr.pogodin/react-native-fs":
+      optional: true
+    react-native-fs:
+      optional: true
+  checksum: 10c0/f88674dfd21639d38bcf5b2a7b70daa335c3c6937649a873f7fee746f91b94f4d52a9f7259dd9c332872e1081fd5a7b44fea63370dc0efcb90644335657a900b
   languageName: node
   linkType: hard
 
-"@credo-ts/webvh@npm:0.6.3":
-  version: 0.6.3
-  resolution: "@credo-ts/webvh@npm:0.6.3"
+"@credo-ts/webvh@npm:0.7.0":
+  version: 0.7.0
+  resolution: "@credo-ts/webvh@npm:0.7.0"
   dependencies:
-    "@credo-ts/anoncreds": "npm:0.6.3"
-    "@credo-ts/core": "npm:0.6.3"
+    "@credo-ts/anoncreds": "npm:0.7.0"
+    "@credo-ts/core": "npm:0.7.0"
     class-transformer: "npm:0.5.1"
     class-validator: "npm:^0.14.3"
     didwebvh-ts: "npm:^2.7.2"
     json-canonicalize: "npm:^2.0.0"
     tsyringe: "npm:^4.10.0"
-  checksum: 10c0/d2be3abeac176779fae34a765c02144cd23d4e8d6d5b0c31f64d62b182df6e446ecde24effb2d66d1977ce69a472a020e15e2629cb7ac4ebbba44117d968792f
+  checksum: 10c0/3efd5f8caa92f2f55228ea7b4457ffc071cbff84c82f885cd85242bc5546515bdf738ff4814d622b76a5a458156ba28e2dda621a761c3c67430a0a2b3206636a
   languageName: node
   linkType: hard
 
@@ -3464,18 +3518,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@expo/react-native-action-sheet@npm:4.0.1":
-  version: 4.0.1
-  resolution: "@expo/react-native-action-sheet@npm:4.0.1"
-  dependencies:
-    "@types/hoist-non-react-statics": "npm:^3.3.1"
-    hoist-non-react-statics: "npm:^3.3.0"
-  peerDependencies:
-    react: ">=16.3.0"
-  checksum: 10c0/e26146045f0e5d33c62f00a83651b6ce7af3511d90f7956c324763d481e6503a744d0faba52db6959b573e00221dd2a87a2d936a313208478ef4d5bc6300f437
-  languageName: node
-  linkType: hard
-
 "@expo/react-native-action-sheet@npm:^4.1.1":
   version: 4.1.1
   resolution: "@expo/react-native-action-sheet@npm:4.1.1"
@@ -3721,66 +3763,45 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@hyperledger/anoncreds-react-native@npm:0.3.4":
-  version: 0.3.4
-  resolution: "@hyperledger/anoncreds-react-native@npm:0.3.4"
+"@hyperledger/anoncreds-react-native@npm:0.4.1-alpha-20260609124337":
+  version: 0.4.1-alpha-20260609124337
+  resolution: "@hyperledger/anoncreds-react-native@npm:0.4.1-alpha-20260609124337"
   dependencies:
-    "@hyperledger/anoncreds-shared": "npm:0.3.4"
+    "@hyperledger/anoncreds-shared": "npm:0.4.1-alpha-20260609124337"
   peerDependencies:
     react: ">= 16"
     react-native: ">= 0.71"
-  checksum: 10c0/34136790d87f963c85dd46376f62526fadb4c6709c9c08cc515c8163b19ecc028444a07b7203f35f104f90acd7242855bdfa81e587199b129e2155d1d5f5cf76
+  checksum: 10c0/6ebd1a60bdbbd2e60c58650fa59b4f8939a7c7ca6d12f064c3ad3218d9bc6842d4ca6ce0d9029144c5d9aa8330b89ebd7f435bc375d4c8c864c94c8005ae606c
   languageName: node
   linkType: hard
 
-"@hyperledger/anoncreds-shared@npm:0.3.4":
-  version: 0.3.4
-  resolution: "@hyperledger/anoncreds-shared@npm:0.3.4"
+"@hyperledger/anoncreds-shared@npm:0.4.1-alpha-20260609124337":
+  version: 0.4.1-alpha-20260609124337
+  resolution: "@hyperledger/anoncreds-shared@npm:0.4.1-alpha-20260609124337"
   dependencies:
     tar: "npm:^7.4.3"
-  checksum: 10c0/9c13ad6080cbef64821406fa414b6a9596c3131fb1677ba46123b1fa70d0216aae5f2658d09a4cd25550efbc1a109e462cdfca55f9639a0c618a65cb6cab0810
+  checksum: 10c0/32829768852112fef73c1dafd6e3a9b95ea9332edda90bb5046a457960d3f514310b6fd134a0413888ccb9dc4eafc37d04d6b5aef0643cbce6f2a6cc4bfa9947
   languageName: node
   linkType: hard
 
-"@hyperledger/indy-vdr-react-native@npm:0.2.4":
-  version: 0.2.4
-  resolution: "@hyperledger/indy-vdr-react-native@npm:0.2.4"
+"@hyperledger/indy-vdr-react-native@npm:0.3.1-dev.1":
+  version: 0.3.1-dev.1
+  resolution: "@hyperledger/indy-vdr-react-native@npm:0.3.1-dev.1"
   dependencies:
-    "@hyperledger/indy-vdr-shared": "npm:0.2.4"
+    "@hyperledger/indy-vdr-shared": "npm:0.3.1-dev.1"
   peerDependencies:
     react: ">= 16"
     react-native: ">= 0.71"
-  checksum: 10c0/f8583f417045a4044c09c7878268ada7e583968faa49d73ff4a0bc63d6fd6f1f244c3df26e58a1e5b6623d5d6932972727204ffb6d8f118c7b691e8533da5027
+  checksum: 10c0/acbb0672bd184108796fc87e728c0b05b6349dfe6e736035cca6fb02695603076941fc716aa38969f40972952c351fc3d208918e3ba0b68c3f9020203ad44bf9
   languageName: node
   linkType: hard
 
-"@hyperledger/indy-vdr-react-native@patch:@hyperledger/indy-vdr-react-native@npm%3A0.2.4#~/.yarn/patches/@hyperledger-indy-vdr-react-native-npm-0.2.4-d7ed0b15da.patch":
-  version: 0.2.4
-  resolution: "@hyperledger/indy-vdr-react-native@patch:@hyperledger/indy-vdr-react-native@npm%3A0.2.4#~/.yarn/patches/@hyperledger-indy-vdr-react-native-npm-0.2.4-d7ed0b15da.patch::version=0.2.4&hash=076916"
-  dependencies:
-    "@hyperledger/indy-vdr-shared": "npm:0.2.4"
-  peerDependencies:
-    react: ">= 16"
-    react-native: ">= 0.71"
-  checksum: 10c0/5d5acf3b267681f5897a3cbb91e8655a493586695969ced3d78234e8ae0d6d4b9febdc8608d1cae89266349278597347d85b527355c3ad1df99f904bc3994184
-  languageName: node
-  linkType: hard
-
-"@hyperledger/indy-vdr-shared@npm:0.2.3":
-  version: 0.2.3
-  resolution: "@hyperledger/indy-vdr-shared@npm:0.2.3"
+"@hyperledger/indy-vdr-shared@npm:0.3.1-dev.1":
+  version: 0.3.1-dev.1
+  resolution: "@hyperledger/indy-vdr-shared@npm:0.3.1-dev.1"
   dependencies:
     tar: "npm:^7.4.3"
-  checksum: 10c0/3edf38099371684ee6302a55f8a8321bff61811cb56d895af31cdbba490f4dd8f95840b1f4f58afcdca3bedccb67e1c377da1d691c855b4bd72aa6d626b6624e
-  languageName: node
-  linkType: hard
-
-"@hyperledger/indy-vdr-shared@npm:0.2.4":
-  version: 0.2.4
-  resolution: "@hyperledger/indy-vdr-shared@npm:0.2.4"
-  dependencies:
-    tar: "npm:^7.4.3"
-  checksum: 10c0/a6d0f8b73088b75983812e69d21e0c046c9e152e627ccf7f6e50f8da091c3112d317c51e6329de1da6ed7891eeae8aa7a005694570b119eeca4bae4f6c2257f7
+  checksum: 10c0/58ba6c938679ebf92772c69ba7f3d3161663e347bcd4f696dabdde281dfe956efbe43565b0a96d1c457e6a7e5d016990f006cc95aa6ee0ad91a0a0bb845d09f7
   languageName: node
   linkType: hard
 
@@ -4378,25 +4399,36 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@openwallet-foundation/askar-react-native@npm:0.6.0":
-  version: 0.6.0
-  resolution: "@openwallet-foundation/askar-react-native@npm:0.6.0"
+"@openwallet-foundation/askar-react-native@npm:0.6.1-alpha-20260720140434":
+  version: 0.6.1-alpha-20260720140434
+  resolution: "@openwallet-foundation/askar-react-native@npm:0.6.1-alpha-20260720140434"
   dependencies:
-    "@openwallet-foundation/askar-shared": "npm:0.6.0"
+    "@openwallet-foundation/askar-shared": "npm:0.6.1-alpha-20260720140434"
   peerDependencies:
     react: ">= 16"
     react-native: ">= 0.71"
-  checksum: 10c0/1ed1d7899a39bc777df9b3ddcf257c7d35c798ecc181d2c0768c60830b65f0a9ac08ea83b372654ffe48cded806a6ed55da4df561a7651350b2b4690a3e029ed
+  checksum: 10c0/ec9472409bf5bd1348dd5f2ec28c06494eff5080dcbf6f125a359b692da3ee0921a7f1349c9014906f900a2cffe3ad57b839eee40c45e7fef273a0ab791f7218
   languageName: node
   linkType: hard
 
-"@openwallet-foundation/askar-shared@npm:0.6.0":
-  version: 0.6.0
-  resolution: "@openwallet-foundation/askar-shared@npm:0.6.0"
+"@openwallet-foundation/askar-shared@npm:0.6.1-alpha-20260720140434":
+  version: 0.6.1-alpha-20260720140434
+  resolution: "@openwallet-foundation/askar-shared@npm:0.6.1-alpha-20260720140434"
   dependencies:
     buffer: "npm:^6.0.3"
     tar: "npm:^7.4.3"
-  checksum: 10c0/49e75561d408d11dc92aa7e063df886ccc1c4dd29ec177443e07164bfefaa8a74f2ccadff610f28b530b108209a911b08a66cca62716ae62ccf8a070e7563c7a
+  checksum: 10c0/573205b6499a6832c58df17d1be2ba78318c28075e207e0442fa7f389d63ab38eea88e0e26a9c808c4f5a952847e12c1ad22f258444b70e43406fee48473890e
+  languageName: node
+  linkType: hard
+
+"@owf/mdoc@npm:^0.6.0":
+  version: 0.6.0
+  resolution: "@owf/mdoc@npm:0.6.0"
+  dependencies:
+    cbor-x: "npm:^1.6.4"
+    zod: "npm:^4.3.6"
+    zod-validation-error: "npm:^5.0.0"
+  checksum: 10c0/6cb0f32eab2bd87b4b86eba8972cd8193039af27163f5c4842d72003d52d05c3caa5767e6b5f473dd9db8e098f22f84b21fba000f37ed2ef7f5ed81b0ac55060
   languageName: node
   linkType: hard
 
@@ -4525,6 +4557,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@peculiar/asn1-schema@npm:^2.9.4":
+  version: 2.9.4
+  resolution: "@peculiar/asn1-schema@npm:2.9.4"
+  dependencies:
+    "@peculiar/utils": "npm:^2.0.2"
+    asn1js: "npm:^3.0.10"
+    tslib: "npm:^2.8.1"
+  checksum: 10c0/f77f76b2117bf3b97238460d0b7e865e3954f8f24beefc07339e644b2f4fbbd85a624bc2231abc04bcdb572a0be42975c00c32bb51f2c2fdbf491d9373c4d0c4
+  languageName: node
+  linkType: hard
+
 "@peculiar/asn1-x509-attr@npm:^2.6.0":
   version: 2.6.0
   resolution: "@peculiar/asn1-x509-attr@npm:2.6.0"
@@ -4558,6 +4601,18 @@ __metadata:
     pvtsutils: "npm:^1.3.6"
     tslib: "npm:^2.8.1"
   checksum: 10c0/bdb15792f470d134b0a1e6a0cdd240852c2a80484bb9b054aa5ae39e4ef59df3cbf78cb601058c7738d6ce09a2731f30ff2a88f023aa745db58d2aa33ec448b8
+  languageName: node
+  linkType: hard
+
+"@peculiar/asn1-x509@npm:^2.6.1":
+  version: 2.9.4
+  resolution: "@peculiar/asn1-x509@npm:2.9.4"
+  dependencies:
+    "@peculiar/asn1-schema": "npm:^2.9.4"
+    "@peculiar/utils": "npm:^2.0.2"
+    asn1js: "npm:^3.0.10"
+    tslib: "npm:^2.8.1"
+  checksum: 10c0/82a1c4d87c5b53da6c826eb7a9e290a900383891ad59c91421e35c8d5080e9973a9151cb7a2ef1e035958a0fce75c70bdf130b12d2afdf9ef913a1ae29ecfd42
   languageName: node
   linkType: hard
 
@@ -5083,7 +5138,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-navigation/core@npm:^6.4.3":
+"@react-navigation/core@npm:^6.4.3, @react-navigation/core@npm:~6.4.17":
   version: 6.4.17
   resolution: "@react-navigation/core@npm:6.4.17"
   dependencies:
@@ -5096,21 +5151,6 @@ __metadata:
   peerDependencies:
     react: "*"
   checksum: 10c0/f71fc10dd34d0bd13abd9c947833b9f5ac6aa18af58f74aa72bac45a5d348a4881924fec6534e7694d7084d940d7dac368a1b1fe7d86b260ff5cf475498e9d1b
-  languageName: node
-  linkType: hard
-
-"@react-navigation/core@npm:~6.1.1":
-  version: 6.1.1
-  resolution: "@react-navigation/core@npm:6.1.1"
-  dependencies:
-    "@react-navigation/routers": "npm:^6.1.0"
-    escape-string-regexp: "npm:^4.0.0"
-    nanoid: "npm:^3.1.23"
-    query-string: "npm:^7.0.0"
-    react-is: "npm:^16.13.0"
-  peerDependencies:
-    react: "*"
-  checksum: 10c0/c5ad4afb08b8ae3ed110776077234f05846882373ded5fe03815f84d125b8b86fef213301c886d52a736adb819b6b6b4e2ca3f3a10d21dfdc978e2ae0cd3c9e5
   languageName: node
   linkType: hard
 
@@ -5154,7 +5194,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-navigation/routers@npm:^6.1.0, @react-navigation/routers@npm:^6.1.9":
+"@react-navigation/routers@npm:^6.1.9":
   version: 6.1.9
   resolution: "@react-navigation/routers@npm:6.1.9"
   dependencies:
@@ -5178,6 +5218,13 @@ __metadata:
     react-native-safe-area-context: ">= 3.0.0"
     react-native-screens: ">= 3.0.0"
   checksum: 10c0/983943cf305f73e9e4637aa7f43bbe228473b4736eb80a238906b7ae5ddf7a9f421ad2ecb09a7220f7a6a5848e724d371483fbe09f3b77f8cd9bb2d52706a83b
+  languageName: node
+  linkType: hard
+
+"@scure/base@npm:^2.0.0":
+  version: 2.3.0
+  resolution: "@scure/base@npm:2.3.0"
+  checksum: 10c0/538da122a8ef9a3f2951b912a8350ad73a1dd812fa99b0fc8617ace1a3200ccd6dfb6d3756c3f8fbc18780156baaf38a95c3e8512cb4af8d593b3bc4b8ee02e7
   languageName: node
   linkType: hard
 
@@ -6019,12 +6066,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:19.1.0":
-  version: 19.1.0
-  resolution: "@types/react@npm:19.1.0"
+"@types/react@npm:19.1.9":
+  version: 19.1.9
+  resolution: "@types/react@npm:19.1.9"
   dependencies:
     csstype: "npm:^3.0.2"
-  checksum: 10c0/632fd20ee176e55801a61c5f854141b043571a3e363ef106b047b766a813a12735cbb37abb3d61d126346979f530f2ed269a60c8ef3cdee54e5e9fe4174e5dad
+  checksum: 10c0/b418da4aaf18fbc6df4f1b7096dda7ee152d697cac00d729ffd855b2b44a3a9cfb2ecb017ed20979ea3a7d98a5ce5fcf01ac1a3614d4a3e4d7069a0c45e49b0f
   languageName: node
   linkType: hard
 
@@ -6537,6 +6584,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@verifiables/request-converter@npm:^0.2.0":
+  version: 0.2.0
+  resolution: "@verifiables/request-converter@npm:0.2.0"
+  peerDependencies:
+    dcql: ">=2.0.0"
+  peerDependenciesMeta:
+    dcql:
+      optional: true
+  checksum: 10c0/ea61aa7887b4821844e1a24bb9454faf926fd2dc72e1e86923b03e4377eaf8e59f8b647f140f7ab1c9aaec2fcf7b2a325310cd1207c1a290dad51d814313413e
+  languageName: node
+  linkType: hard
+
 "@vscode/sudo-prompt@npm:^9.0.0":
   version: 9.3.2
   resolution: "@vscode/sudo-prompt@npm:9.3.2"
@@ -6967,6 +7026,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"asn1js@npm:^3.0.10":
+  version: 3.0.10
+  resolution: "asn1js@npm:3.0.10"
+  dependencies:
+    pvtsutils: "npm:^1.3.6"
+    pvutils: "npm:^1.1.5"
+    tslib: "npm:^2.8.1"
+  checksum: 10c0/04056106522e4d0db4eb992299bb76d73438bfd59ffd975ac9c1f15d14e7326161dad383c54a5ccfa203b73ae7b7bf4668f42c2fed01e1f4bf79a58de71e4dc6
+  languageName: node
+  linkType: hard
+
 "asn1js@npm:^3.0.5, asn1js@npm:^3.0.6":
   version: 3.0.7
   resolution: "asn1js@npm:3.0.7"
@@ -7022,14 +7092,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"axios@npm:~1.13.2":
-  version: 1.13.2
-  resolution: "axios@npm:1.13.2"
+"axios@npm:~1.15.0":
+  version: 1.15.2
+  resolution: "axios@npm:1.15.2"
   dependencies:
-    follow-redirects: "npm:^1.15.6"
-    form-data: "npm:^4.0.4"
-    proxy-from-env: "npm:^1.1.0"
-  checksum: 10c0/e8a42e37e5568ae9c7a28c348db0e8cf3e43d06fcbef73f0048669edfe4f71219664da7b6cc991b0c0f01c28a48f037c515263cb79be1f1ae8ff034cd813867b
+    follow-redirects: "npm:^1.15.11"
+    form-data: "npm:^4.0.5"
+    proxy-from-env: "npm:^2.1.0"
+  checksum: 10c0/4eeae0feeaa7fdc1ef24f81f8b378fdadedf4aebdd6bf224484675160f8744cf17b9b0d1c215279979940f7e8ce463beffa2f713099612e428eac238515c81d5
   languageName: node
   linkType: hard
 
@@ -7300,15 +7370,15 @@ __metadata:
     "@bifold/core": "npm:3.0.22"
     "@bifold/oca": "npm:3.0.22"
     "@bifold/react-hooks": "npm:3.0.22"
-    "@credo-ts/anoncreds": "npm:0.6.3"
-    "@credo-ts/askar": "npm:0.6.3"
-    "@credo-ts/core": "npm:0.6.3"
-    "@credo-ts/indy-vdr": "npm:0.6.3"
-    "@credo-ts/openid4vc": "npm:0.6.3"
+    "@credo-ts/anoncreds": "npm:0.7.0"
+    "@credo-ts/askar": "npm:0.7.0"
+    "@credo-ts/core": "npm:0.7.0"
+    "@credo-ts/indy-vdr": "npm:0.7.0"
+    "@credo-ts/openid4vc": "npm:0.7.0"
     "@credo-ts/push-notifications": "npm:0.7.1"
-    "@credo-ts/question-answer": "npm:0.6.3"
-    "@credo-ts/react-native": "npm:0.6.3"
-    "@credo-ts/webvh": "npm:0.6.3"
+    "@credo-ts/question-answer": "npm:0.7.0"
+    "@credo-ts/react-native": "npm:0.7.0"
+    "@credo-ts/webvh": "npm:0.7.0"
     "@expo/app-integrity": "npm:^55.0.9"
     "@formatjs/intl-datetimeformat": "npm:~6.18.2"
     "@formatjs/intl-displaynames": "npm:~6.8.13"
@@ -7318,9 +7388,9 @@ __metadata:
     "@formatjs/intl-numberformat": "npm:~8.15.6"
     "@formatjs/intl-pluralrules": "npm:~5.4.6"
     "@formatjs/intl-relativetimeformat": "npm:~11.4.13"
-    "@hyperledger/anoncreds-react-native": "npm:0.3.4"
-    "@hyperledger/indy-vdr-react-native": "npm:0.2.4"
-    "@openwallet-foundation/askar-react-native": "npm:0.6.0"
+    "@hyperledger/anoncreds-react-native": "npm:0.4.1-alpha-20260609124337"
+    "@hyperledger/indy-vdr-react-native": "npm:0.3.1-dev.1"
+    "@openwallet-foundation/askar-react-native": "npm:0.6.1-alpha-20260720140434"
     "@react-native-async-storage/async-storage": "npm:~2.2.0"
     "@react-native-clipboard/clipboard": "npm:~1.16.3"
     "@react-native-community/cli": "npm:20.0.0"
@@ -7333,14 +7403,14 @@ __metadata:
     "@react-native/metro-config": "npm:~0.81.5"
     "@react-native/typescript-config": "npm:~0.81.5"
     "@react-navigation/bottom-tabs": "npm:~6.0.9"
-    "@react-navigation/core": "npm:~6.1.1"
+    "@react-navigation/core": "npm:~6.4.17"
     "@react-navigation/native": "npm:~6.0.16"
     "@react-navigation/stack": "npm:~6.3.29"
     "@sd-jwt/jwt-status-list": "npm:^0.17.0"
     "@types/lodash.merge": "npm:~4.6.9"
     "@types/lodash.startcase": "npm:~4.4.9"
     "@types/react": "npm:~19.1.9"
-    axios: "npm:~1.13.2"
+    axios: "npm:~1.15.0"
     babel-plugin-module-resolver: "npm:~5.0.2"
     base-64: "npm:~1.0.0"
     buffer: "npm:~6.0.3"
@@ -7351,14 +7421,14 @@ __metadata:
     expo-crypto: "npm:~15.0.8"
     expo-secure-store: "npm:*"
     fast-text-encoding: "npm:~1.0.6"
-    i18next: "npm:~21.6.16"
+    i18next: "npm:~25.8.0"
     lodash.startcase: "npm:~4.4.0"
     moment: "npm:~2.29.4"
     pod-install: "npm:~0.1.39"
     prettier: "npm:~3.4.2"
     query-string: "npm:~7.1.3"
     react: "npm:*"
-    react-i18next: "npm:~11.17.1"
+    react-i18next: "npm:~16.5.4"
     react-native: "npm:*"
     react-native-animated-pagination-dots: "npm:~0.1.73"
     react-native-bouncy-checkbox: "npm:~3.0.7"
@@ -7368,7 +7438,7 @@ __metadata:
     react-native-fs: "npm:~2.20.0"
     react-native-gesture-handler: "npm:~2.28.0"
     react-native-get-random-values: "npm:~1.11.0"
-    react-native-gifted-chat: "npm:~2.4.1"
+    react-native-gifted-chat: "npm:~3.3.2"
     react-native-keyboard-controller: "npm:1.18.5"
     react-native-keychain: "npm:~10.0.0"
     react-native-localize: "npm:~2.2.6"
@@ -7377,19 +7447,20 @@ __metadata:
     react-native-permissions: "npm:~5.4.1"
     react-native-qrcode-svg: "npm:~6.2.0"
     react-native-quick-crypto: "npm:~0.7.17"
-    react-native-reanimated: "npm:~3.19.5"
+    react-native-reanimated: "npm:4.1.1"
     react-native-safe-area-context: "npm:~5.6.2"
     react-native-screenguard: "npm:~1.1.0"
-    react-native-screens: "npm:~4.16.0"
+    react-native-screens: "npm:~4.24.0"
     react-native-splash-screen: "npm:~3.3.0"
     react-native-svg: "npm:~15.12.1"
     react-native-svg-transformer: "npm:~1.5.0"
     react-native-tcp-socket: "npm:~6.0.6"
     react-native-toast-message: "npm:~2.1.10"
     react-native-url-polyfill: "npm:3.0.0"
-    react-native-uuid: "npm:~2.0.3"
+    react-native-uuid: "npm:~2.0.4"
     react-native-vector-icons: "npm:~10.3.0"
     react-native-vision-camera: "npm:*"
+    react-native-worklets: "npm:0.5.1"
     tsyringe: "npm:~4.8.0"
     typescript: "npm:~5.9.2"
     uuid: "npm:~9.0.1"
@@ -7712,6 +7783,49 @@ __metadata:
   version: 1.0.8
   resolution: "canonicalize@npm:1.0.8"
   checksum: 10c0/6fafcfa73855a49c86eed26d2f23734713a542a3107a23a6ab16fb22b6cee6bb2d92ad32b2244d52594bd69bc08bec820413911cd566dcc5399048012ce26a83
+  languageName: node
+  linkType: hard
+
+"cbor-extract@npm:^2.2.2":
+  version: 2.2.2
+  resolution: "cbor-extract@npm:2.2.2"
+  dependencies:
+    "@cbor-extract/cbor-extract-darwin-arm64": "npm:2.2.2"
+    "@cbor-extract/cbor-extract-darwin-x64": "npm:2.2.2"
+    "@cbor-extract/cbor-extract-linux-arm": "npm:2.2.2"
+    "@cbor-extract/cbor-extract-linux-arm64": "npm:2.2.2"
+    "@cbor-extract/cbor-extract-linux-x64": "npm:2.2.2"
+    "@cbor-extract/cbor-extract-win32-x64": "npm:2.2.2"
+    node-gyp: "npm:latest"
+    node-gyp-build-optional-packages: "npm:5.1.1"
+  dependenciesMeta:
+    "@cbor-extract/cbor-extract-darwin-arm64":
+      optional: true
+    "@cbor-extract/cbor-extract-darwin-x64":
+      optional: true
+    "@cbor-extract/cbor-extract-linux-arm":
+      optional: true
+    "@cbor-extract/cbor-extract-linux-arm64":
+      optional: true
+    "@cbor-extract/cbor-extract-linux-x64":
+      optional: true
+    "@cbor-extract/cbor-extract-win32-x64":
+      optional: true
+  bin:
+    download-cbor-prebuilds: bin/download-prebuilds.js
+  checksum: 10c0/2559078c8c6ad2f25424fd50b9f81ce59138bb1ab483b82f2fd43c9531699a5cf3c87fe9e5ab2ffc244967bc2ff9546afa712fcedde485c617a34ff14f8fd90a
+  languageName: node
+  linkType: hard
+
+"cbor-x@npm:^1.6.4":
+  version: 1.6.5
+  resolution: "cbor-x@npm:1.6.5"
+  dependencies:
+    cbor-extract: "npm:^2.2.2"
+  dependenciesMeta:
+    cbor-extract:
+      optional: true
+  checksum: 10c0/0c5acf1cdf8a607156711921e5c463f8b4a3b21bf1b13e6c67a18110338ad300b53dd6feee01b3f49c70c0f4f892711f4c7e384b1aa852955981d7a857ebc4da
   languageName: node
   linkType: hard
 
@@ -8437,13 +8551,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dayjs@npm:1.8.26":
-  version: 1.8.26
-  resolution: "dayjs@npm:1.8.26"
-  checksum: 10c0/a098898c5093e563e4b759d5b9dd45ec43d19491556d1740e2924d9655573269453c7abe7b98c5b9854a77d7933699374278a3cf3db20795357ed768f2013655
-  languageName: node
-  linkType: hard
-
 "dayjs@npm:^1.11.19":
   version: 1.11.20
   resolution: "dayjs@npm:1.11.20"
@@ -8719,7 +8826,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"detect-libc@npm:^2.0.3":
+"detect-libc@npm:^2.0.1, detect-libc@npm:^2.0.3":
   version: 2.1.2
   resolution: "detect-libc@npm:2.1.2"
   checksum: 10c0/acc675c29a5649fa1fb6e255f993b8ee829e510b6b56b0910666949c80c364738833417d0edb5f90e4e46be17228b0f2b66a010513984e18b15deeeac49369c4
@@ -10253,13 +10360,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"follow-redirects@npm:^1.15.6":
-  version: 1.15.11
-  resolution: "follow-redirects@npm:1.15.11"
+"follow-redirects@npm:^1.15.11":
+  version: 1.16.0
+  resolution: "follow-redirects@npm:1.16.0"
   peerDependenciesMeta:
     debug:
       optional: true
-  checksum: 10c0/d301f430542520a54058d4aeeb453233c564aaccac835d29d15e050beb33f339ad67d9bddbce01739c5dc46a6716dbe3d9d0d5134b1ca203effa11a7ef092343
+  checksum: 10c0/a1e2900163e6f1b4d1ed5c221b607f41decbab65534c63fe7e287e40a5d552a6496e7d9d7d976fa4ba77b4c51c11e5e9f683f10b43011ea11e442ff128d0e181
   languageName: node
   linkType: hard
 
@@ -10289,16 +10396,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"form-data@npm:^4.0.4":
-  version: 4.0.5
-  resolution: "form-data@npm:4.0.5"
+"form-data@npm:^4.0.5":
+  version: 4.0.6
+  resolution: "form-data@npm:4.0.6"
   dependencies:
     asynckit: "npm:^0.4.0"
     combined-stream: "npm:^1.0.8"
     es-set-tostringtag: "npm:^2.1.0"
-    hasown: "npm:^2.0.2"
-    mime-types: "npm:^2.1.12"
-  checksum: 10c0/dd6b767ee0bbd6d84039db12a0fa5a2028160ffbfaba1800695713b46ae974a5f6e08b3356c3195137f8530dcd9dfcb5d5ae1eeff53d0db1e5aad863b619ce3b
+    hasown: "npm:^2.0.4"
+    mime-types: "npm:^2.1.35"
+  checksum: 10c0/43947a77bf0ff45c6ceed789778982d47a3f3e720a74b71721174ebf3310a5f1a8be1d6b38a3ee3688e8a18a2c4273073ec0844cd37efda3eaf46d41c9c318ff
   languageName: node
   linkType: hard
 
@@ -10817,6 +10924,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"hasown@npm:^2.0.4":
+  version: 2.0.4
+  resolution: "hasown@npm:2.0.4"
+  dependencies:
+    function-bind: "npm:^1.1.2"
+  checksum: 10c0/2d8de939e270b70618f8cebb69746620db10617dbb495bc66ddad326955ea24d3ca4af133aff3eb7c1853e0218f867bc2b050ec26fe02e3aea58f880ffc5e506
+  languageName: node
+  linkType: hard
+
 "hermes-estree@npm:0.29.1":
   version: 0.29.1
   resolution: "hermes-estree@npm:0.29.1"
@@ -10883,7 +10999,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"html-escaper@npm:^2.0.0, html-escaper@npm:^2.0.2":
+"html-escaper@npm:^2.0.0":
   version: 2.0.2
   resolution: "html-escaper@npm:2.0.2"
   checksum: 10c0/208e8a12de1a6569edbb14544f4567e6ce8ecc30b9394fcaa4e7bb1e60c12a7c9a1ed27e31290817157e8626f3a4f29e76c8747030822eb84a6abb15c255f0a0
@@ -10959,15 +11075,6 @@ __metadata:
   version: 2.1.0
   resolution: "human-signals@npm:2.1.0"
   checksum: 10c0/695edb3edfcfe9c8b52a76926cd31b36978782062c0ed9b1192b36bebc75c4c87c82e178dfcb0ed0fc27ca59d434198aac0bd0be18f5781ded775604db22304a
-  languageName: node
-  linkType: hard
-
-"i18next@npm:~21.6.16":
-  version: 21.6.16
-  resolution: "i18next@npm:21.6.16"
-  dependencies:
-    "@babel/runtime": "npm:^7.17.2"
-  checksum: 10c0/d116bf02de3878e1541945bdcdd7af8646a3b7a50849957efa925c9e14174683a4be66e03a55490459c13f820e2a4b516e1be591cde4ea9cd5a73cb2616efdeb
   languageName: node
   linkType: hard
 
@@ -13325,7 +13432,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mime-types@npm:^2.1.12, mime-types@npm:^2.1.27, mime-types@npm:~2.1.24, mime-types@npm:~2.1.34":
+"mime-types@npm:^2.1.27, mime-types@npm:^2.1.35, mime-types@npm:~2.1.24, mime-types@npm:~2.1.34":
   version: 2.1.35
   resolution: "mime-types@npm:2.1.35"
   dependencies:
@@ -13683,6 +13790,19 @@ __metadata:
   version: 1.3.3
   resolution: "node-forge@npm:1.3.3"
   checksum: 10c0/9c6f53b0ebb34865872cf62a35b0aef8fb337e2efc766626c2e3a0040f4c02933bf29a62ba999eb44a2aca73bd512c4eda22705a47b94654b9fb8ed53db9a1db
+  languageName: node
+  linkType: hard
+
+"node-gyp-build-optional-packages@npm:5.1.1":
+  version: 5.1.1
+  resolution: "node-gyp-build-optional-packages@npm:5.1.1"
+  dependencies:
+    detect-libc: "npm:^2.0.1"
+  bin:
+    node-gyp-build-optional-packages: bin.js
+    node-gyp-build-optional-packages-optional: optional.js
+    node-gyp-build-optional-packages-test: build-test.js
+  checksum: 10c0/f9fad2061c48fb0fc90831cd11d6a7670d731d22a5b00c7d3441b43b4003543299ff64ff2729afe2cefd7d14928e560d469336e5bb00f613932ec2cd56b3665b
   languageName: node
   linkType: hard
 
@@ -14557,18 +14677,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prop-types@npm:15.7.2":
-  version: 15.7.2
-  resolution: "prop-types@npm:15.7.2"
-  dependencies:
-    loose-envify: "npm:^1.4.0"
-    object-assign: "npm:^4.1.1"
-    react-is: "npm:^16.8.1"
-  checksum: 10c0/4eb527daec962acd789c621ce3234a6f077ce202049291642d8efd13b19805adf07227672c570531cdb56a357640ea27e336527682b7ed4be0c5b392a01662ab
-  languageName: node
-  linkType: hard
-
-"prop-types@npm:^15.7.2, prop-types@npm:^15.7.x, prop-types@npm:^15.8.0, prop-types@npm:^15.8.1":
+"prop-types@npm:^15.7.2, prop-types@npm:^15.8.0, prop-types@npm:^15.8.1":
   version: 15.8.1
   resolution: "prop-types@npm:15.8.1"
   dependencies:
@@ -14589,10 +14698,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"proxy-from-env@npm:^1.1.0":
-  version: 1.1.0
-  resolution: "proxy-from-env@npm:1.1.0"
-  checksum: 10c0/fe7dd8b1bdbbbea18d1459107729c3e4a2243ca870d26d34c2c1bcd3e4425b7bcc5112362df2d93cc7fb9746f6142b5e272fd1cc5c86ddf8580175186f6ad42b
+"proxy-from-env@npm:^2.1.0":
+  version: 2.1.0
+  resolution: "proxy-from-env@npm:2.1.0"
+  checksum: 10c0/ed01729fd4d094eab619cd7e17ce3698b3413b31eb102c4904f9875e677cd207392795d5b4adee9cec359dfd31c44d5ad7595a3a3ad51c40250e141512281c58
   languageName: node
   linkType: hard
 
@@ -14633,6 +14742,13 @@ __metadata:
   version: 1.1.5
   resolution: "pvutils@npm:1.1.5"
   checksum: 10c0/e968b07b78a58fec9377fe7aa6342c8cfa21c8fb4afc4e51e1489bd42bec6dc71b8a52541d0aede0aea17adec7ca3f89f29f56efdc31d0083cc02e9bb5721bcf
+  languageName: node
+  linkType: hard
+
+"pvutils@npm:^1.1.5":
+  version: 1.2.0
+  resolution: "pvutils@npm:1.2.0"
+  checksum: 10c0/1206766f0b9947fd44a629e2ed7945fb5d1d8ee0f31f032ec58d60cec2165b0b3afb11bf3727215348bf19132ca34986302680b5930d45b0a0d23745fd54224b
   languageName: node
   linkType: hard
 
@@ -14690,7 +14806,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"query-string@npm:^7.0.0, query-string@npm:^7.1.3, query-string@npm:~7.1.3":
+"query-string@npm:^7.1.3, query-string@npm:~7.1.3":
   version: 7.1.3
   resolution: "query-string@npm:7.1.3"
   dependencies:
@@ -14816,25 +14932,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-i18next@npm:~11.17.1":
-  version: 11.17.4
-  resolution: "react-i18next@npm:11.17.4"
-  dependencies:
-    "@babel/runtime": "npm:^7.14.5"
-    html-escaper: "npm:^2.0.2"
-    html-parse-stringify: "npm:^3.0.1"
-  peerDependencies:
-    i18next: ">= 19.0.0"
-    react: ">= 16.8.0"
-  peerDependenciesMeta:
-    react-dom:
-      optional: true
-    react-native:
-      optional: true
-  checksum: 10c0/67d62abff126719b97d931edeb4e083604187050938dcca424984f2a2643472dde9c490c23506ca30c56a1232b46cae316be61bbae473aaca7f0ba8658e557ba
-  languageName: node
-  linkType: hard
-
 "react-i18next@npm:~16.5.4":
   version: 16.5.4
   resolution: "react-i18next@npm:16.5.4"
@@ -14857,7 +14954,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-is@npm:^16.13.0, react-is@npm:^16.13.1, react-is@npm:^16.7.0, react-is@npm:^16.8.1":
+"react-is@npm:^16.13.0, react-is@npm:^16.13.1, react-is@npm:^16.7.0":
   version: 16.13.1
   resolution: "react-is@npm:16.13.1"
   checksum: 10c0/33977da7a5f1a287936a0c85639fec6ca74f4f15ef1e59a6bc20338fc73dc69555381e211f7a3529b8150a1f71e4225525b41b60b52965bda53ce7d47377ada1
@@ -14871,10 +14968,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-is@npm:^19.1.0":
-  version: 19.2.3
-  resolution: "react-is@npm:19.2.3"
-  checksum: 10c0/2b54c422c21b8dbd68a435a1cce21ecd5b6f06f48659531f7d53dd7368365da5a67e946f352fb2010d11ca40658aa67bec90995f0f1ec5556c0f71dbffe54994
+"react-is@npm:^19.1.4":
+  version: 19.2.8
+  resolution: "react-is@npm:19.2.8"
+  checksum: 10c0/ed5322c84efe035c8fc814b1614ff5ca7fb8c2872a7c045197daf99f9b1bd68f32a2c79ffcbcfcff2fc5d93924ff9f9447400898f5b1534e6302bb0736a257f0
   languageName: node
   linkType: hard
 
@@ -14929,13 +15026,6 @@ __metadata:
   bin:
     bob: bin/bob
   checksum: 10c0/46f026e1024814430fe7b68b5da3cf5d6f38aa72fcd1a351c2bb5590795544a8254a3cb07f47d114f253cadf9f85961901d66e664a147f8f1562a87421001089
-  languageName: node
-  linkType: hard
-
-"react-native-communications@npm:2.2.1":
-  version: 2.2.1
-  resolution: "react-native-communications@npm:2.2.1"
-  checksum: 10c0/12224bcd0d895f5a0eb63106409ba8dbbd996bed40c2fcae983815031c064eae194016a1e6d4eed982d0cd7f95ab73602b71619255da3a4ff0c085b6fe62027c
   languageName: node
   linkType: hard
 
@@ -15021,27 +15111,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-gifted-chat@npm:~2.4.1":
-  version: 2.4.1
-  resolution: "react-native-gifted-chat@npm:2.4.1"
-  dependencies:
-    "@expo/react-native-action-sheet": "npm:4.0.1"
-    dayjs: "npm:1.8.26"
-    prop-types: "npm:15.7.2"
-    react-native-communications: "npm:2.2.1"
-    react-native-iphone-x-helper: "npm:1.3.1"
-    react-native-lightbox-v2: "npm:0.9.0"
-    react-native-parsed-text: "npm:0.0.22"
-    react-native-typing-animation: "npm:0.1.7"
-    use-memo-one: "npm:1.1.3"
-    uuid: "npm:3.4.0"
-  peerDependencies:
-    react: "*"
-    react-native: "*"
-  checksum: 10c0/5182404e2a1c6d7e2bdc1da7c05e6142b331141b639e3f8b0c0caa8b9bb03c53448f58e20a6ff753a3466e4fa2bbcf8ed6096a24932b1c74f14cbd4b5ce917d6
-  languageName: node
-  linkType: hard
-
 "react-native-gifted-chat@npm:~3.3.2":
   version: 3.3.3
   resolution: "react-native-gifted-chat@npm:3.3.3"
@@ -15059,25 +15128,6 @@ __metadata:
     react-native-reanimated: ">=3.0.0 || ^4.0.0"
     react-native-safe-area-context: ">=5.0.0"
   checksum: 10c0/17ac8009bf2d015dcb05288d968f51e736c4b905651fdc228854ff6a4813031f505bd0000bcfbe1b176823620203e9bae775662cf4c5c293023ad199d084b7fb
-  languageName: node
-  linkType: hard
-
-"react-native-iphone-x-helper@npm:1.3.1":
-  version: 1.3.1
-  resolution: "react-native-iphone-x-helper@npm:1.3.1"
-  peerDependencies:
-    react-native: ">=0.42.0"
-  checksum: 10c0/f2e01cb30ebdba54cbadc7bcb584ef7491c24aa2d221312f084c6e7b1031b77c2d538f7bf778ee16959245dbbe4f7784bbead02448368b7d0cbe8dd8c808693f
-  languageName: node
-  linkType: hard
-
-"react-native-is-edge-to-edge@npm:1.1.7":
-  version: 1.1.7
-  resolution: "react-native-is-edge-to-edge@npm:1.1.7"
-  peerDependencies:
-    react: "*"
-    react-native: "*"
-  checksum: 10c0/b7a37437f439b1e27a4d980de01994aa71b9091dc3ed00c21172d5505fb11978cd5ed3a43f97c89d502a3a08cf26e5cea6435b8d6e93d3557a92dd43563f7021
   languageName: node
   linkType: hard
 
@@ -15124,16 +15174,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-lightbox-v2@npm:0.9.0":
-  version: 0.9.0
-  resolution: "react-native-lightbox-v2@npm:0.9.0"
-  peerDependencies:
-    react: ">=16.8.0"
-    react-native: ">=0.61.0"
-  checksum: 10c0/86125911f78c8292f84851dcdcca06fc606afcc3d4e9a0dd84dee94edc665aa3d519ebb6c64014320d5855e4a77a83b129ac511059ed32e55f6082b11c46a69b
-  languageName: node
-  linkType: hard
-
 "react-native-localize@npm:~2.2.6":
   version: 2.2.6
   resolution: "react-native-localize@npm:2.2.6"
@@ -15169,18 +15209,6 @@ __metadata:
     react-native-windows:
       optional: true
   checksum: 10c0/1c16a7d912043f2f7a7d97b071b14b3c1360b91d0dc8525a04025f915b52d7a66fe2dde1e9bdad62a94860f8dd5d905c8346fd25cadd3cfd476b9c3075995165
-  languageName: node
-  linkType: hard
-
-"react-native-parsed-text@npm:0.0.22":
-  version: 0.0.22
-  resolution: "react-native-parsed-text@npm:0.0.22"
-  dependencies:
-    prop-types: "npm:^15.7.x"
-  peerDependencies:
-    react: "*"
-    react-native: "*"
-  checksum: 10c0/34c1a4383d31dd1dd9e0f622b1b947b887cb24405329b802f1a4c0965bd0255bc32b569398f807de96bba220a0cd265cd49a99f005924d012770cdb2febcdb3f
   languageName: node
   linkType: hard
 
@@ -15235,27 +15263,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-reanimated@npm:~3.19.5":
-  version: 3.19.5
-  resolution: "react-native-reanimated@npm:3.19.5"
+"react-native-reanimated@npm:4.1.1":
+  version: 4.1.1
+  resolution: "react-native-reanimated@npm:4.1.1"
   dependencies:
-    "@babel/plugin-transform-arrow-functions": "npm:^7.0.0-0"
-    "@babel/plugin-transform-class-properties": "npm:^7.0.0-0"
-    "@babel/plugin-transform-classes": "npm:^7.0.0-0"
-    "@babel/plugin-transform-nullish-coalescing-operator": "npm:^7.0.0-0"
-    "@babel/plugin-transform-optional-chaining": "npm:^7.0.0-0"
-    "@babel/plugin-transform-shorthand-properties": "npm:^7.0.0-0"
-    "@babel/plugin-transform-template-literals": "npm:^7.0.0-0"
-    "@babel/plugin-transform-unicode-regex": "npm:^7.0.0-0"
-    "@babel/preset-typescript": "npm:^7.16.7"
-    convert-source-map: "npm:^2.0.0"
-    invariant: "npm:^2.2.4"
-    react-native-is-edge-to-edge: "npm:1.1.7"
+    react-native-is-edge-to-edge: "npm:^1.2.1"
+    semver: "npm:7.7.2"
   peerDependencies:
     "@babel/core": ^7.0.0-0
     react: "*"
     react-native: "*"
-  checksum: 10c0/5da1e142b5c2fefc118a2c6b2bba224deffb98048399b350c22e3496d36ff348ca0d72f7a0b8478db069b1d10e56f42c070c03807fa7e384cf12d9f35c8fc6cf
+    react-native-worklets: ">=0.5.0"
+  checksum: 10c0/867a71792b55d4a56fd90f57e7cb56a6d5ff4a0b5a4c7876a4b540679ffaf17618dd3136f19e61a1e950172551892d1d8fde5a739747b03aff8c43550be7fe03
   languageName: node
   linkType: hard
 
@@ -15279,17 +15298,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-screens@npm:~4.16.0":
-  version: 4.16.0
-  resolution: "react-native-screens@npm:4.16.0"
+"react-native-screens@npm:~4.24.0":
+  version: 4.24.0
+  resolution: "react-native-screens@npm:4.24.0"
   dependencies:
     react-freeze: "npm:^1.0.0"
-    react-native-is-edge-to-edge: "npm:^1.2.1"
     warn-once: "npm:^0.1.0"
   peerDependencies:
     react: "*"
     react-native: "*"
-  checksum: 10c0/8ec459ff52cbd317bfca598843a0010b4ca9070d05664f28d792594d8ceabb398b9d68abb578f40295e41f906308efe7ac7359046fba7aaf318a0d9d65446102
+  checksum: 10c0/49299e694ed20cf5a8c0f86702eb77df03f5b7353d9b73e7415bb593ac5ff3aa4dfe76b1e9d8efb0fd926917e507f02f13e0a8791c8833910080454b66d99943
   languageName: node
   linkType: hard
 
@@ -15353,17 +15371,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-typing-animation@npm:0.1.7":
-  version: 0.1.7
-  resolution: "react-native-typing-animation@npm:0.1.7"
-  peerDependencies:
-    prop-types: "*"
-    react: "*"
-    react-native: "*"
-  checksum: 10c0/83df79e5450aa0254fc1aed3d0aa2f9adaaaf77f3ada1dfef28dcf1b031a4f624b97ba29d634cbd9080159398f2ffc7ba676b346920f0d92d08bafa4849a0aa7
-  languageName: node
-  linkType: hard
-
 "react-native-url-polyfill@npm:3.0.0":
   version: 3.0.0
   resolution: "react-native-url-polyfill@npm:3.0.0"
@@ -15375,10 +15382,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-uuid@npm:~2.0.3":
-  version: 2.0.3
-  resolution: "react-native-uuid@npm:2.0.3"
-  checksum: 10c0/d94bccc28936c2dea081ab404f90b0c968092013af4d428b8e74bf407d6098ad5410914f77a903ad1296cce364fc85d27d8dfd70d22ec48d8cf1b7edc8803a8d
+"react-native-uuid@npm:~2.0.4":
+  version: 2.0.4
+  resolution: "react-native-uuid@npm:2.0.4"
+  checksum: 10c0/56bcf29fa59a3e4c6374e612d9adf4e2a5e7f1000e632451f0e4bf0fbeb00664eb8657a5af7e2adb64c435e96f42c535cc20529cffcc48a03581b41ba1761d2a
   languageName: node
   linkType: hard
 
@@ -15414,6 +15421,29 @@ __metadata:
     react-native-worklets-core:
       optional: true
   checksum: 10c0/46001037f4f9a85e75c023e5082b137c179fd520741e088009d217f0a6eaf3a819b9784ae68aced95fa70c3345346c79dd2ee70bc04cfd811c7eefeda675cab2
+  languageName: node
+  linkType: hard
+
+"react-native-worklets@npm:0.5.1":
+  version: 0.5.1
+  resolution: "react-native-worklets@npm:0.5.1"
+  dependencies:
+    "@babel/plugin-transform-arrow-functions": "npm:^7.0.0-0"
+    "@babel/plugin-transform-class-properties": "npm:^7.0.0-0"
+    "@babel/plugin-transform-classes": "npm:^7.0.0-0"
+    "@babel/plugin-transform-nullish-coalescing-operator": "npm:^7.0.0-0"
+    "@babel/plugin-transform-optional-chaining": "npm:^7.0.0-0"
+    "@babel/plugin-transform-shorthand-properties": "npm:^7.0.0-0"
+    "@babel/plugin-transform-template-literals": "npm:^7.0.0-0"
+    "@babel/plugin-transform-unicode-regex": "npm:^7.0.0-0"
+    "@babel/preset-typescript": "npm:^7.16.7"
+    convert-source-map: "npm:^2.0.0"
+    semver: "npm:7.7.2"
+  peerDependencies:
+    "@babel/core": ^7.0.0-0
+    react: "*"
+    react-native: "*"
+  checksum: 10c0/9eb9e6dea9abaf889400a6618355ef59af3075f5004a4bec9e4cba6dcfd13d8b63de0d4b29d75c00a3dcf5ad422e1bdb71636c75b1a2ad1c43d8b512f198bdab
   languageName: node
   linkType: hard
 
@@ -15484,22 +15514,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-test-renderer@npm:19.1.0":
-  version: 19.1.0
-  resolution: "react-test-renderer@npm:19.1.0"
+"react-test-renderer@npm:19.1.4":
+  version: 19.1.4
+  resolution: "react-test-renderer@npm:19.1.4"
   dependencies:
-    react-is: "npm:^19.1.0"
+    react-is: "npm:^19.1.4"
     scheduler: "npm:^0.26.0"
   peerDependencies:
-    react: ^19.1.0
-  checksum: 10c0/34ed4a37ba8b0beb96c048de6ff28574f018a18dd1042c24f8f46142d48eb5b27f82ff7c2823d082932fd3983c5a3529ab8cc8f15191d4306df0082f9f84678f
+    react: ^19.1.4
+  checksum: 10c0/3b2be2f631e0a022df5f59fe15240a99a4e8dfeba73c5239f588e4bc78135ff8eb4273273e6255b43f24b5b14f93a8cda801ba90c6c6b946d7f9fc0960280cac
   languageName: node
   linkType: hard
 
-"react@npm:19.1.0":
-  version: 19.1.0
-  resolution: "react@npm:19.1.0"
-  checksum: 10c0/530fb9a62237d54137a13d2cfb67a7db6a2156faed43eecc423f4713d9b20c6f2728b026b45e28fcd72e8eadb9e9ed4b089e99f5e295d2f0ad3134251bdd3698
+"react@npm:19.1.4":
+  version: 19.1.4
+  resolution: "react@npm:19.1.4"
+  checksum: 10c0/159257dbaf168facecc0a34825114e2b00624d315b7dca8468afcc790eadf5a49f90c0234be7492c7207239292e789e443ca419a83121898b82b0824454900f2
   languageName: node
   linkType: hard
 
@@ -16049,6 +16079,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"semver@npm:7.7.2, semver@npm:^7.3.4, semver@npm:^7.3.5, semver@npm:^7.3.7, semver@npm:^7.5.2, semver@npm:^7.5.3, semver@npm:^7.5.4, semver@npm:^7.6.0, semver@npm:^7.6.3":
+  version: 7.7.2
+  resolution: "semver@npm:7.7.2"
+  bin:
+    semver: bin/semver.js
+  checksum: 10c0/aca305edfbf2383c22571cb7714f48cadc7ac95371b4b52362fb8eeffdfbc0de0669368b82b2b15978f8848f01d7114da65697e56cd8c37b0dab8c58e543f9ea
+  languageName: node
+  linkType: hard
+
 "semver@npm:^6.3.0, semver@npm:^6.3.1":
   version: 6.3.1
   resolution: "semver@npm:6.3.1"
@@ -16064,15 +16103,6 @@ __metadata:
   bin:
     semver: bin/semver.js
   checksum: 10c0/4afe5c986567db82f44c8c6faef8fe9df2a9b1d98098fc1721f57c696c4c21cebd572f297fc21002f81889492345b8470473bc6f4aff5fb032a6ea59ea2bc45e
-  languageName: node
-  linkType: hard
-
-"semver@npm:^7.3.4, semver@npm:^7.3.5, semver@npm:^7.3.7, semver@npm:^7.5.2, semver@npm:^7.5.3, semver@npm:^7.5.4, semver@npm:^7.6.0, semver@npm:^7.6.3":
-  version: 7.7.2
-  resolution: "semver@npm:7.7.2"
-  bin:
-    semver: bin/semver.js
-  checksum: 10c0/aca305edfbf2383c22571cb7714f48cadc7ac95371b4b52362fb8eeffdfbc0de0669368b82b2b15978f8848f01d7114da65697e56cd8c37b0dab8c58e543f9ea
   languageName: node
   linkType: hard
 
@@ -17678,15 +17708,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"use-memo-one@npm:1.1.3":
-  version: 1.1.3
-  resolution: "use-memo-one@npm:1.1.3"
-  peerDependencies:
-    react: ^16.8.0 || ^17.0.0 || ^18.0.0
-  checksum: 10c0/3d596e65a6b47b2f1818061599738e00daad1f9a9bb4e5ce1f014b20a35b297e50fe4bf1d8c1699ab43ea97f01f84649a736c15ceff96de83bfa696925f6cc6b
-  languageName: node
-  linkType: hard
-
 "use-sync-external-store@npm:^1.2.2, use-sync-external-store@npm:^1.6.0":
   version: 1.6.0
   resolution: "use-sync-external-store@npm:1.6.0"
@@ -17727,15 +17748,6 @@ __metadata:
   version: 1.0.1
   resolution: "utils-merge@npm:1.0.1"
   checksum: 10c0/02ba649de1b7ca8854bfe20a82f1dfbdda3fb57a22ab4a8972a63a34553cf7aa51bc9081cf7e001b035b88186d23689d69e71b510e610a09a4c66f68aa95b672
-  languageName: node
-  linkType: hard
-
-"uuid@npm:3.4.0":
-  version: 3.4.0
-  resolution: "uuid@npm:3.4.0"
-  bin:
-    uuid: ./bin/uuid
-  checksum: 10c0/1c13950df865c4f506ebfe0a24023571fa80edf2e62364297a537c80af09c618299797bbf2dbac6b1f8ae5ad182ba474b89db61e0e85839683991f7e08795347
   languageName: node
   linkType: hard
 
