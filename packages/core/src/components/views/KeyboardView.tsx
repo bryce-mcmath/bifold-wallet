@@ -1,7 +1,7 @@
 import { useHeaderHeight } from '@react-navigation/elements'
 import React, { RefObject } from 'react'
 import { KeyboardAvoidingView, Platform, ScrollView, ScrollViewProps } from 'react-native'
-import { KeyboardAwareScrollView } from 'react-native-keyboard-controller'
+import { KeyboardAwareScrollView, KeyboardAwareScrollViewRef } from 'react-native-keyboard-controller'
 
 const useSafeHeaderHeight = (): number => {
   try {
@@ -38,7 +38,11 @@ const KeyboardView: React.FC<{
         keyboardShouldPersistTaps={'handled'}
         contentContainerStyle={[{ flexGrow: 1 }, scrollViewProps?.contentContainerStyle]}
         showsVerticalScrollIndicator={false}
-        ref={scrollViewRef}
+        // keyboard-controller 1.21 types this ref as KeyboardAwareScrollViewRef
+        // ({ assureFocusedInputVisible } & ScrollView). Callers share one ScrollView ref
+        // across this and a plain ScrollView, and refs are invariant in TS, so widen here —
+        // the instance received really is a ScrollView.
+        ref={scrollViewRef as React.Ref<KeyboardAwareScrollViewRef>}
         {...scrollViewProps}
       >
         {children}

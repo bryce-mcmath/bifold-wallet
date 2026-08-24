@@ -84,7 +84,7 @@ const PINInput = ({
         onPINChanged && onPINChanged(newPIN)
       }
     },
-    [PIN, displayValue, onPINChanged],
+    [PIN, displayValue, onPINChanged]
   )
 
   const [props, getCellOnLayoutHandler] = useClearByFocusCell({
@@ -142,7 +142,13 @@ const PINInput = ({
                 child = showPIN ? (
                   symbol
                 ) : (
-                  <MaskSymbol maskSymbol="●" isLastFilledCell={isLastFilledCell({ index, value: PINScreensConfig.useNewPINDesign ? PIN : displayValue })}>
+                  <MaskSymbol
+                    maskSymbol="●"
+                    isLastFilledCell={isLastFilledCell(
+                      PINScreensConfig.useNewPINDesign ? PIN : displayValue,
+                      index
+                    )}
+                  >
                     {symbol}
                   </MaskSymbol>
                 )

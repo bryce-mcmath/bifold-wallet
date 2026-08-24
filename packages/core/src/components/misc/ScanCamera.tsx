@@ -148,7 +148,7 @@ const ScanCamera: React.FC<ScanCameraProps> = ({ handleCodeScan, error, enableCa
         <>
           <Camera
             ref={camera}
-            style={StyleSheet.absoluteFillObject}
+            style={StyleSheet.absoluteFill}
             device={device}
             torch={torchActive ? 'on' : 'off'}
             isActive={cameraActive}
