@@ -134,6 +134,7 @@ const PINInput = ({
           cellCount={PINScreensConfig.useNewPINDesign ? separatedPINCellCount : cellCount}
           keyboardType="number-pad"
           textContentType="password"
+          autoComplete="off"
           renderCell={({ index, symbol, isFocused }) => {
             let child: React.ReactNode | string = ''
             // skip spaces
@@ -144,10 +145,7 @@ const PINInput = ({
                 ) : (
                   <MaskSymbol
                     maskSymbol="●"
-                    isLastFilledCell={isLastFilledCell(
-                      PINScreensConfig.useNewPINDesign ? PIN : displayValue,
-                      index
-                    )}
+                    isLastFilledCell={isLastFilledCell(PINScreensConfig.useNewPINDesign ? PIN : displayValue, index)}
                   >
                     {symbol}
                   </MaskSymbol>
