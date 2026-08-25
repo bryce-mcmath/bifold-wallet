@@ -12,10 +12,6 @@ import org.wonday.orientation.OrientationActivityLifecycle
 
 class MainApplication : Application(), ReactApplication {
 
-    // RN 0.86 is bridgeless-only: ReactNativeHost/DefaultReactNativeHost are gone, and Expo's
-    // ReactNativeHostWrapper went with them. ExpoReactHostFactory is the SDK 57 replacement —
-    // it applies the ReactNativeHostHandlers contributed by installed Expo modules, which is
-    // what the wrapper used to do.
     override val reactHost: ReactHost by lazy {
         getDefaultReactHost(
             context = applicationContext,
