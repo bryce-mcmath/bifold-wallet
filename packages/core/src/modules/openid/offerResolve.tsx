@@ -221,6 +221,7 @@ export const customCredentialBindingResolver = async ({
   if (
     supportsJwk &&
     (credentialFormat === OpenId4VciCredentialFormatProfile.SdJwtVc ||
+      credentialFormat === OpenId4VciCredentialFormatProfile.SdJwtDc ||
       credentialFormat === OpenId4VciCredentialFormatProfile.MsoMdoc)
   ) {
     return {

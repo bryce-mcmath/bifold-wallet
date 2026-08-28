@@ -274,6 +274,25 @@ describe('customCredentialBindingResolver', () => {
     })
   })
 
+  test('returns a plain jwk binding for sd-jwt dc credentials when only jwk is supported', async () => {
+    const agent = createAgentMock()
+
+    const result = await customCredentialBindingResolver({
+      agent: agent as any,
+      supportedDidMethods: [],
+      supportsAllDidMethods: false,
+      supportsJwk: true,
+      credentialFormat: OpenId4VciCredentialFormatProfile.SdJwtDc,
+      proofTypes: proofTypes as any,
+    })
+
+    expect(agent.dids.create).not.toHaveBeenCalled()
+    expect(result).toEqual({
+      method: 'jwk',
+      keys: [publicJwk],
+    })
+  })
+
   test('throws when no supported binding method can be found', async () => {
     const agent = createAgentMock()
 
