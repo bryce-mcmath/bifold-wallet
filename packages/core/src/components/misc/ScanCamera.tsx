@@ -1,18 +1,12 @@
 import React, { useCallback, useEffect, useRef, useState } from 'react'
-import {
-  StyleSheet,
-  Vibration,
-  View,
-  useWindowDimensions,
-  Pressable,
-  GestureResponderEvent,
-  Animated,
-} from 'react-native'
+import { StyleSheet, Vibration, View, Pressable, GestureResponderEvent, Animated } from 'react-native'
 import { OrientationType, useOrientationChange } from 'react-native-orientation-locker'
-import { Camera, Code, useCameraDevice, useCameraFormat, useCodeScanner } from 'react-native-vision-camera'
-
+import { Camera, CameraRef, useCameraDevice } from 'react-native-vision-camera'
+import { Barcode, TargetBarcodeFormat, useBarcodeScannerOutput } from 'react-native-vision-camera-barcode-scanner'
 import { QrCodeScanError } from '../../types/error'
 import { testIdWithKey } from '../../utils/testable'
+
+const BARCODE_FORMATS: TargetBarcodeFormat[] = ['qr-code']
 
 export interface ScanCameraProps {
   handleCodeScan: (value: string) => Promise<void>
@@ -45,25 +39,21 @@ const ScanCamera: React.FC<ScanCameraProps> = ({ handleCodeScan, error, enableCa
   const [invalidQrCodes, setInvalidQrCodes] = useState(new Set<string>())
   const hasFiredRef = useRef(false)
   const [focusPoint, setFocusPoint] = useState<{ x: number; y: number } | null>(null)
+  const cameraRef = useRef<CameraRef>(null)
   const focusOpacity = useRef(new Animated.Value(0)).current
   const focusScale = useRef(new Animated.Value(1)).current
   const device = useCameraDevice('back')
-  const screenAspectRatio = useWindowDimensions().scale
-  const format = useCameraFormat(device, [
-    { fps: 20 },
-    { videoAspectRatio: screenAspectRatio },
-    { videoResolution: 'max' },
-    { photoAspectRatio: screenAspectRatio },
-    { photoResolution: 'max' },
-  ])
-  const camera = useRef<Camera>(null)
   useOrientationChange((orientationType) => {
     setOrientation(orientationType)
   })
 
   const onCodeScanned = useCallback(
-    (codes: Code[]) => {
-      const value = codes[0].value
+    (codes: Barcode[]) => {
+      if (!codes.length) {
+        return
+      }
+
+      const value = codes[0].rawValue
       if (!value || invalidQrCodes.has(value)) {
         return
       }
@@ -113,17 +103,17 @@ const ScanCamera: React.FC<ScanCameraProps> = ({ handleCodeScan, error, enableCa
     })
   }
 
-  const focus = useCallback((point: { x: number; y: number }) => {
-    const c = camera.current
-    if (c) {
-      c.focus(point)
-    }
-  }, [])
+  const focus = useCallback(
+    async (point: { x: number; y: number }) => {
+      if (cameraRef.current) {
+        const focusPoint = cameraRef.current.createMeteringPoint(point.x, point.y)
+        await cameraRef.current.controller?.focusTo(focusPoint, { responsiveness: 'snappy' })
+      }
+    },
+    [cameraRef]
+  )
 
   const handleFocusTap = (e: GestureResponderEvent): void => {
-    if (!device?.supportsFocus) {
-      return
-    }
     const { locationX: x, locationY: y } = e.nativeEvent
     const tapPoint = { x, y }
     drawFocusTap(tapPoint)
@@ -137,9 +127,10 @@ const ScanCamera: React.FC<ScanCameraProps> = ({ handleCodeScan, error, enableCa
     }
   }, [error, enableCameraOnError])
 
-  const codeScanner = useCodeScanner({
-    codeTypes: ['qr'],
-    onCodeScanned: onCodeScanned,
+  const codeScanner = useBarcodeScannerOutput({
+    barcodeFormats: BARCODE_FORMATS,
+    onBarcodeScanned: onCodeScanned,
+    onError: () => {},
   })
 
   return (
@@ -147,13 +138,12 @@ const ScanCamera: React.FC<ScanCameraProps> = ({ handleCodeScan, error, enableCa
       {device && (
         <>
           <Camera
-            ref={camera}
+            ref={cameraRef}
             style={StyleSheet.absoluteFill}
             device={device}
-            torch={torchActive ? 'on' : 'off'}
             isActive={cameraActive}
-            codeScanner={codeScanner}
-            format={format}
+            outputs={[codeScanner]}
+            torchMode={torchActive ? 'on' : 'off'}
           />
           <Pressable
             accessible={false}
