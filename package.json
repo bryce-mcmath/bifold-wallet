@@ -65,7 +65,6 @@
     "sha.js": "2.4.12",
     "elliptic": "6.6.1",
     "@types/react": "~19.2.18",
-    "react-native-vision-camera": "4.7.3",
     "@credo-ts/core": "0.7.0",
     "@credo-ts/anoncreds": "0.7.0",
     "@credo-ts/indy-vdr": "0.7.0",
