@@ -1,10 +1,11 @@
-import React, { useCallback, useEffect, useRef, useState } from 'react'
+import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { StyleSheet, Vibration, View, Pressable, GestureResponderEvent, Animated } from 'react-native'
 import { OrientationType, useOrientationChange } from 'react-native-orientation-locker'
 import { Camera, CameraRef, useCameraDevice } from 'react-native-vision-camera'
 import { Barcode, TargetBarcodeFormat, useBarcodeScannerOutput } from 'react-native-vision-camera-barcode-scanner'
 import { QrCodeScanError } from '../../types/error'
 import { testIdWithKey } from '../../utils/testable'
+import { TOKENS, useServices } from '../../container-api'
 
 const BARCODE_FORMATS: TargetBarcodeFormat[] = ['qr-code']
 
@@ -43,9 +44,23 @@ const ScanCamera: React.FC<ScanCameraProps> = ({ handleCodeScan, error, enableCa
   const focusOpacity = useRef(new Animated.Value(0)).current
   const focusScale = useRef(new Animated.Value(1)).current
   const device = useCameraDevice('back')
+  const [cameraStarted, setCameraStarted] = useState(false)
+  const [logger] = useServices([TOKENS.UTIL_LOGGER])
   useOrientationChange((orientationType) => {
     setOrientation(orientationType)
   })
+
+  const torchMode = useMemo(() => {
+    if (!device?.hasTorch || torchActive === undefined || cameraStarted === false) {
+      return undefined
+    }
+
+    if (!torchActive) {
+      return 'off'
+    }
+
+    return 'on'
+  }, [cameraStarted, device?.hasTorch, torchActive])
 
   const onCodeScanned = useCallback(
     (codes: Barcode[]) => {
@@ -143,7 +158,16 @@ const ScanCamera: React.FC<ScanCameraProps> = ({ handleCodeScan, error, enableCa
             device={device}
             isActive={cameraActive}
             outputs={[codeScanner]}
-            torchMode={torchActive ? 'on' : 'off'}
+            torchMode={torchMode}
+            onStarted={() => setCameraStarted(true)}
+            onStopped={() => setCameraStarted(false)}
+            onError={(error) => {
+              if (isVisionCameraTorchToggleErrorV5_2_3(error)) {
+                // VisionCamera v5.2.3 has a known issue where toggling the torch can throw an error on Android devices.
+                logger.debug('[MaskedCamera] Ignoring known Android VisionCamera(V5.2.3) torch toggle error')
+                return
+              }
+            }}
           />
           <Pressable
             accessible={false}
@@ -171,6 +195,17 @@ const ScanCamera: React.FC<ScanCameraProps> = ({ handleCodeScan, error, enableCa
       )}
     </View>
   )
+}
+
+/** TODO: Deprecate this once VisionCamera fixes the torch toggling issue on Android
+ * @see https://github.com/margelo/react-native-vision-camera/issues/3907#issuecomment-5264861310
+ * @see https://github.com/margelo/react-native-vision-camera/issues/4069
+ */
+export const isVisionCameraTorchToggleErrorV5_2_3 = (error: unknown): error is Error => {
+  const VISION_CAMERA_ANDROID_TORCH_TOGGLE_ERROR_V5_2_3 =
+    'androidx.camera.core.CameraControl$OperationCanceledException: There is a new enableTorch being set'
+
+  return error instanceof Error && error.message.includes(VISION_CAMERA_ANDROID_TORCH_TOGGLE_ERROR_V5_2_3)
 }
 
 export default ScanCamera
